@@ -31,6 +31,7 @@
 	</ItemGroup>
 
 	<Target Name="PrePublishTarget" AfterTargets="Publish">
+		<Exec Command="cd ../" />
 		<Exec Command="dotnet ef database update --project=Infrastructure --startup-project=API" />
 	</Target>
 </Project>
