@@ -87,7 +87,7 @@ FirebaseApp.Create(new AppOptions
 
 string connectionString = null;
 
-string? envVar = Environment.GetEnvironmentVariable("ConnectionStrings:PostgreSQLSECapstoneEvaluationConnection");
+string? envVar = Environment.GetEnvironmentVariable("PostgreSQLSECapstoneEvaluationConnection");
 
 if (string.IsNullOrEmpty(envVar))
 {
