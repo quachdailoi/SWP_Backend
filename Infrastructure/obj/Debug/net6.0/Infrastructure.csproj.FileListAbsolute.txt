@@ -13,3 +13,5 @@ D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\obj\Debug\net6.0\In
 D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
 D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+D:\DotNet_Study\projects\SECapstoneEvaluation\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
