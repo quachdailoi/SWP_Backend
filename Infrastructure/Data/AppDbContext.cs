@@ -72,11 +72,53 @@ namespace SECapstoneEvaluation.Infrastructure.Data
                 
             });
 
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 2,
+                Code = "SE140977",
+                Name = "Nguyen Dang Khoa",
+                Birthday = DateTime.UtcNow,
+                CampusId = 2,
+                Email = "khoandse140977@fpt.edu.vn",
+                Phone = "0123123123",
+                Gender = false,
+                Status = true,
+
+            });
+
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 3,
+                Code = "SE14091",
+                Name = "Than Thanh Duy",
+                Birthday = DateTime.UtcNow,
+                CampusId = 2,
+                Email = "duyttse140971@fpt.edu.vn",
+                Phone = "0123123123",
+                Gender = false,
+                Status = true,
+
+            });
+
             modelBuilder.Entity<RoleUser>().HasData(new RoleUser
             {
                 Id = 1,
                 RoleId = 1,
                 UserId = 1
+            });
+
+            modelBuilder.Entity<RoleUser>().HasData(new RoleUser
+            {
+                Id = 2,
+                RoleId = 1,
+                UserId = 2
+            });
+
+            modelBuilder.Entity<RoleUser>().HasData(new RoleUser
+            {
+                Id = 3,
+                RoleId = 1,
+                UserId = 3
             });
         }
 

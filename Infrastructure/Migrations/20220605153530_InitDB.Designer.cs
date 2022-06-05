@@ -12,7 +12,7 @@ using SECapstoneEvaluation.Infrastructure.Data;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220605104059_InitDB")]
+    [Migration("20220605153530_InitDB")]
     partial class InitDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -316,7 +316,7 @@ namespace Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            Birthday = new DateTime(2022, 6, 5, 10, 40, 59, 304, DateTimeKind.Utc).AddTicks(5655),
+                            Birthday = new DateTime(2022, 6, 5, 15, 35, 29, 902, DateTimeKind.Utc).AddTicks(9474),
                             CampusId = 2,
                             Code = "SE140970",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),

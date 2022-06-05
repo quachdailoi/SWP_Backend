@@ -130,7 +130,7 @@ namespace Infrastructure.Migrations
             migrationBuilder.InsertData(
                 table: "users",
                 columns: new[] { "id", "birthday", "campus_id", "code", "created_at", "created_by", "email", "gender", "is_deleted", "name", "phone", "status", "updated_at", "updated_by" },
-                values: new object[] { 1, new DateTime(2022, 6, 5, 10, 40, 59, 304, DateTimeKind.Utc).AddTicks(5655), 2, "SE140970", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "", "loiqdse140970@fpt.edu.vn", false, false, "Quach Dai Loi", "0837226239", true, null, "" });
+                values: new object[] { 1, new DateTime(2022, 6, 5, 15, 35, 29, 902, DateTimeKind.Utc).AddTicks(9474), 2, "SE140970", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "", "loiqdse140970@fpt.edu.vn", false, false, "Quach Dai Loi", "0837226239", true, null, "" });
 
             migrationBuilder.InsertData(
                 table: "role_users",
