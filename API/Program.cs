@@ -85,8 +85,25 @@ FirebaseApp.Create(new AppOptions
 //    options.UseSqlServer(configuration.GetConnectionString("SECapstoneEvaluationConnection"))
 //);
 
+string connectionString = null;
+
+string? envVar = Environment.GetEnvironmentVariable("ConnectionStrings:PostgreSQLSECapstoneEvaluationConnection");
+
+if (string.IsNullOrEmpty(envVar))
+{
+
+    connectionString = configuration.GetConnectionString("PostgreSQLSECapstoneEvaluationConnection");
+
+}
+else
+{
+    //parse database URL. Format is postgres://<username>:<password>@<host>/<dbname>
+
+    connectionString = envVar;
+}
+
 services.AddDbContextPool<AppDbContext>(options =>
-        options.UseNpgsql(configuration.GetConnectionString("PostgreSQLSECapstoneEvaluationConnection"))
+        options.UseNpgsql(connectionString)
 );
 
 services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
