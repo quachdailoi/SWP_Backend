@@ -556,3 +556,15 @@ System.FormatException: The input is not a valid Base-64 string as it contains a
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 [2022-06-07 15:37:59.880 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/users/login application/json 1252 - 500 - text/plain;+charset=utf-8 1028.2820ms
+[2022-06-07 21:42:25.588 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-07 21:42:25.900 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-07 21:42:25.900 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-07 21:42:25.904 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-07 21:42:25.904 +07:00  INF]  Hosting environment: Development
+[2022-06-07 21:42:25.904 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-07 21:42:26.752 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-07 21:42:26.998 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 251.2185ms
+[2022-06-07 21:42:27.017 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-07 21:42:27.025 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 8.8317ms
+[2022-06-07 21:42:27.409 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-07 21:42:27.496 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.7095ms
