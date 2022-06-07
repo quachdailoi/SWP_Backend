@@ -2,41 +2,37 @@
 {
     public class BaseResponse
     {
-        private int statusCode;
-        private string message;
-        private object data;
+        public int StatusCode { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public object? Data { get; set; } = null;
 
-        public BaseResponse StatusCode(int statusCode)
+        public BaseResponse()
         {
-            this.statusCode = statusCode;
+        }
+
+        public BaseResponse(int statusCode, string message, object? data = null)
+        {
+            StatusCode = statusCode;
+            Message = message;
+            Data = data;
+        }
+
+        public BaseResponse SetStatusCode(int code) 
+        {
+            StatusCode = code; 
             return this;
         }
 
-        public int StatusCode ()
+        public BaseResponse SetMessage(string message)
         {
-            return statusCode;
-        }
-
-        public BaseResponse Message(string message)
-        {
-            this.message = message;
+            Message = message;
             return this;
         }
 
-        public string Message()
+        public BaseResponse SetData(object data)
         {
-            return message;
-        }
-
-        public BaseResponse Data(object data)
-        {
-            this.data = data;
+            Data = data;
             return this;
-        }
-
-        public object Data()
-        {
-            return data;
         }
     }
 }

@@ -35,8 +35,8 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             if (verifiedIdToken == null)
             {
-                response.StatusCode(StatusCodes.Status400BadRequest)
-                    .Message("Login failed.");
+                response.SetStatusCode(StatusCodes.Status400BadRequest)
+                    .SetMessage("Login failed.");
                 return BadRequest(response);
             }
 
@@ -48,23 +48,23 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             if (user == null)
             {
-                response.StatusCode(StatusCodes.Status400BadRequest)
-                    .Message("Login failed - Not found email account in our system.");
+                response.SetStatusCode(StatusCodes.Status400BadRequest)
+                    .SetMessage("Login failed - Not found email account in our system.");
                 return BadRequest(response);
             }
 
             if (user.CampusId != request.CampusId)
             {
-                response.StatusCode(StatusCodes.Status400BadRequest)
-                    .Message("Login failed - User account is not access to this campus.");
+                response.SetStatusCode(StatusCodes.Status400BadRequest)
+                    .SetMessage("Login failed - User account is not access to this campus.");
                 return BadRequest(response);
             }
 
             string token = jwtHandler.GenerateToken(user);
 
-            response.StatusCode(StatusCodes.Status200OK)
-                .Message("Login successfully.")
-                .Data(new UserLoginSuccessResponse
+            response.SetStatusCode(StatusCodes.Status200OK)
+                .SetMessage("Login successfully.")
+                .SetData(new UserLoginSuccessResponse
                 {
                     AccessToken = token,
                     User = user

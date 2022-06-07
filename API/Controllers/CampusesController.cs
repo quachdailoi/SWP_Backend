@@ -30,14 +30,14 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             if (campuses == null || !campuses.Any())
             {
-                response.StatusCode(StatusCodes.Status404NotFound)
-                    .Message("Not found any campuses.");
-                return NotFound();
+                response.SetStatusCode(StatusCodes.Status404NotFound)
+                    .SetMessage("Not found any campuses.");
+                return NotFound(response);
             }
 
-            response.StatusCode(StatusCodes.Status200OK)
-                .Message("Get campuses successfully.")
-                .Data(campuses);
+            response.SetStatusCode(StatusCodes.Status200OK)
+                .SetMessage("Get campuses successfully.")
+                .SetData(campuses);
 
             return Ok(response);
         }
@@ -67,7 +67,7 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
         //    if (dsExcelRecords == null || dsExcelRecords.Tables.Count <= 0)
         //    {
-                
+
         //    }
 
         //    return Ok("ok");
