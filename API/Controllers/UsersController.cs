@@ -1,4 +1,6 @@
-﻿using FirebaseAdmin.Auth;
+﻿using API.DTOs.Request;
+using API.DTOs.Response;
+using FirebaseAdmin.Auth;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SECapstoneEvaluation.APIs.JwtFeatures;
@@ -23,11 +25,11 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
         
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody]string idToken, int campusId)
+        public async Task<IActionResult> Login([FromBody]LoginRequest request)
         {
             FirebaseAuth firebaseAuth = FirebaseAuth.DefaultInstance;
 
-            FirebaseToken verifiedIdToken = await firebaseAuth.VerifyIdTokenAsync(idToken);
+            FirebaseToken verifiedIdToken = await firebaseAuth.VerifyIdTokenAsync(request.IdToken);
 
             if (verifiedIdToken == null) return BadRequest("Login failed.");
 
@@ -39,14 +41,24 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             if (user == null) return BadRequest("Login failed - Not found email account in our system.");
 
-            if (user.CampusId != campusId)
+            if (user.CampusId != request.CampusId)
             {
                 return BadRequest("Login failed - User account is not access to this campus.");
             }
 
             string token = jwtHandler.GenerateToken(user);
 
-            return Ok(token);
+            BaseResponse response = new BaseResponse
+            {
+                Message = "Login successfully.",
+                Data = new UserLoginSuccessResponse
+                {
+                    AccessToken = token,
+                    User = user
+                }
+            };
+
+            return new JsonResult(response);
         }
 
         [Authorize]

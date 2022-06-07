@@ -12,11 +12,21 @@ using SECapstoneEvaluation.APIs.Services.Constracts;
 using SECapstoneEvaluation.APIs.Services;
 using SECapstoneEvaluation.Domain.Interfaces.UnitOfWork;
 using SECapstoneEvaluation.Infrastructure.Data.UnitOfWork;
+using Serilog;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
 var configuration = builder.Configuration;
+
+// Config Log
+var logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 
 //Config CORS
 builder.Services.AddCors(options =>
@@ -24,7 +34,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:3000");
+                          policy.AllowAnyOrigin();
                       });
 });
 
