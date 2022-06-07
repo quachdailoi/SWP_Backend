@@ -1,7 +1,12 @@
 ﻿using API.DTOs.Response;
+using API.Helpers.CsvMapper;
+using CsvHelper;
 using Microsoft.AspNetCore.Mvc;
 using SECapstoneEvaluation.APIs.Services.Constracts;
+using SECapstoneEvaluation.Domain.Entities;
+using System.Globalization;
 using System.Net;
+using System.Text;
 
 namespace SECapstoneEvaluation.APIs.Controllers
 {
@@ -33,6 +38,20 @@ namespace SECapstoneEvaluation.APIs.Controllers
             };
 
             return Ok(response);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateCampuses([FromForm]IFormFile file)
+        {
+            List<Campus> campuses = new();
+            using (var reader = new StreamReader(file.OpenReadStream(), Encoding.Default))
+            using (var csvReader = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                csvReader.Context.RegisterClassMap<CampusMap>();
+                campuses = csvReader.GetRecords<Campus>().ToList();
+            }
+
+            return Ok(campuses);
         }
     }
 }
