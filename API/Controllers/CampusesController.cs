@@ -40,18 +40,18 @@ namespace SECapstoneEvaluation.APIs.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateCampuses([FromForm]IFormFile file)
-        {
-            List<Campus> campuses = new();
-            using (var reader = new StreamReader(file.OpenReadStream(), Encoding.Default))
-            using (var csvReader = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                csvReader.Context.RegisterClassMap<CampusMap>();
-                campuses = csvReader.GetRecords<Campus>().ToList();
-            }
+        //[HttpPost]
+        //public async Task<IActionResult> CreateCampuses([FromForm]IFormFile file)
+        //{
+        //    List<Campus> campuses = new();
+        //    using (var reader = new StreamReader(file.OpenReadStream(), Encoding.Default))
+        //    using (var csvReader = new CsvReader(reader, CultureInfo.InvariantCulture))
+        //    {
+        //        csvReader.Context.RegisterClassMap<CampusMap>();
+        //        campuses = csvReader.GetRecords<Campus>().ToList();
+        //    }
 
-            return Ok(campuses);
-        }
+        //    return Ok(campuses);
+        //}
     }
 }

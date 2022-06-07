@@ -382,3 +382,43 @@ Code;Name
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 [2022-06-07 11:46:01.581 +07:00  INF]  Request finished HTTP/1.1 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=--------------------------760984712071080026068146 254 - 500 - text/plain;+charset=utf-8 47.0846ms
+[2022-06-07 14:33:52.784 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-07 14:33:53.027 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-07 14:33:53.027 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-07 14:33:53.029 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-07 14:33:53.029 +07:00  INF]  Hosting environment: Development
+[2022-06-07 14:33:53.029 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-07 14:33:54.074 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-07 14:33:54.391 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 322.2143ms
+[2022-06-07 14:33:54.411 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-07 14:33:54.416 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.0332ms
+[2022-06-07 14:33:54.719 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-07 14:33:54.822 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.4564ms
+[2022-06-07 14:34:28.796 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/users/login application/json 1244
+[2022-06-07 14:34:28.802 +07:00  INF]  CORS policy execution successful.
+[2022-06-07 14:34:28.900 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.UsersController.Login (API)'
+[2022-06-07 14:34:28.934 +07:00  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(API.DTOs.Request.LoginRequest) on controller SECapstoneEvaluation.APIs.Controllers.UsersController (API).
+[2022-06-07 14:34:29.874 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-07 14:34:30.872 +07:00  INF]  Executed DbCommand (57ms) [Parameters=[@__email_1='?', @__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id AS "Id", @__email_1 AS "Email", u.campus_id AS "CampusId", u.code AS "Code", u.name AS "Name", u.birthday AS "Birthday", u.phone AS "Phone", u.gender AS "Gender", r.role_id AS "RoleId", r0.name AS "RoleName"
+FROM users AS u
+INNER JOIN role_users AS r ON u.id = r.user_id
+INNER JOIN roles AS r0 ON r.role_id = r0.id
+WHERE u.email = @__email_0
+LIMIT 1
+[2022-06-07 14:34:30.982 +07:00  INF]  Executing JsonResult, writing value of type 'API.DTOs.Response.BaseResponse'.
+[2022-06-07 14:34:30.996 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.UsersController.Login (API) in 2055.9138ms
+[2022-06-07 14:34:30.997 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.UsersController.Login (API)'
+[2022-06-07 14:34:31.004 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/users/login application/json 1244 - 200 - application/json;+charset=utf-8 2208.1772ms
+[2022-06-07 14:35:49.957 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-07 14:35:50.167 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-07 14:35:50.167 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-07 14:35:50.170 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-07 14:35:50.170 +07:00  INF]  Hosting environment: Development
+[2022-06-07 14:35:50.170 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-07 14:35:50.977 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-07 14:35:51.201 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-07 14:35:51.202 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 229.4322ms
+[2022-06-07 14:35:51.213 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 12.0684ms
+[2022-06-07 14:35:51.533 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-07 14:35:51.680 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.5145ms
