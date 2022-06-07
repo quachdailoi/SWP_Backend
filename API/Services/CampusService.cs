@@ -28,5 +28,10 @@ namespace SECapstoneEvaluation.APIs.Services
                 Name = c.Name,
             }).ToListAsync();
         }
+
+        public void ReadExcelFile(IFormFile file)
+        {
+            
+        }
     }
 }

@@ -31,7 +31,14 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             FirebaseToken verifiedIdToken = await firebaseAuth.VerifyIdTokenAsync(request.IdToken);
 
-            if (verifiedIdToken == null) return BadRequest("Login failed.");
+            BaseResponse response = new();
+
+            if (verifiedIdToken == null)
+            {
+                response.StatusCode(StatusCodes.Status400BadRequest)
+                    .Message("Login failed.");
+                return BadRequest(response);
+            }
 
             IReadOnlyDictionary<string, dynamic> claims = verifiedIdToken.Claims;
 
@@ -39,24 +46,29 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             var user = await service.GetUserByEmail(email);
 
-            if (user == null) return BadRequest("Login failed - Not found email account in our system.");
+            if (user == null)
+            {
+                response.StatusCode(StatusCodes.Status400BadRequest)
+                    .Message("Login failed - Not found email account in our system.");
+                return BadRequest(response);
+            }
 
             if (user.CampusId != request.CampusId)
             {
-                return BadRequest("Login failed - User account is not access to this campus.");
+                response.StatusCode(StatusCodes.Status400BadRequest)
+                    .Message("Login failed - User account is not access to this campus.");
+                return BadRequest(response);
             }
 
             string token = jwtHandler.GenerateToken(user);
 
-            BaseResponse response = new BaseResponse
-            {
-                Message = "Login successfully.",
-                Data = new UserLoginSuccessResponse
+            response.StatusCode(StatusCodes.Status200OK)
+                .Message("Login successfully.")
+                .Data(new UserLoginSuccessResponse
                 {
                     AccessToken = token,
                     User = user
-                }
-            };
+                });
 
             return new JsonResult(response);
         }

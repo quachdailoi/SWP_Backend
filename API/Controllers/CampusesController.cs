@@ -1,9 +1,10 @@
 ﻿using API.DTOs.Response;
-using API.Helpers.CsvMapper;
-using CsvHelper;
+using ExcelDataReader;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using SECapstoneEvaluation.APIs.Services.Constracts;
 using SECapstoneEvaluation.Domain.Entities;
+using System.Data;
 using System.Globalization;
 using System.Net;
 using System.Text;
@@ -26,32 +27,51 @@ namespace SECapstoneEvaluation.APIs.Controllers
         {
             var campuses = await _campusService.GetAllCampusesForLogin();
 
+            BaseResponse response = new();
+
             if (campuses == null || !campuses.Any())
             {
+                response.StatusCode(StatusCodes.Status404NotFound)
+                    .Message("Not found any campuses.");
                 return NotFound();
             }
 
-            BaseResponse response = new BaseResponse
-            {
-                Message = "Get campuses successfully.",
-                Data = campuses
-            };
+            response.StatusCode(StatusCodes.Status200OK)
+                .Message("Get campuses successfully.")
+                .Data(campuses);
 
             return Ok(response);
         }
 
         //[HttpPost]
-        //public async Task<IActionResult> CreateCampuses([FromForm]IFormFile file)
+        //public async Task<IActionResult> CreateCampuses([FromForm] IFormFile file)
         //{
-        //    List<Campus> campuses = new();
-        //    using (var reader = new StreamReader(file.OpenReadStream(), Encoding.Default))
-        //    using (var csvReader = new CsvReader(reader, CultureInfo.InvariantCulture))
+        //    Stream stream = file.OpenReadStream();
+
+        //    if (file == null || stream == null)
         //    {
-        //        csvReader.Context.RegisterClassMap<CampusMap>();
-        //        campuses = csvReader.GetRecords<Campus>().ToList();
+        //        return BadRequest("Seleted file is empty.");
         //    }
 
-        //    return Ok(campuses);
+        //    bool isValidFileExtension = file.FileName.EndsWith(".xls") || file.FileName.EndsWith(".xlsx");
+        //    if (!isValidFileExtension)
+        //    {
+        //        return BadRequest("The file format is not supported.");
+        //    }
+        //    FileStream fileStream = stream as FileStream;
+
+        //    IExcelDataReader reader = ExcelReaderFactory.CreateBinaryReader(fileStream);
+
+        //    DataSet dsExcelRecords = reader.AsDataSet();
+
+        //    reader.Close();
+
+        //    if (dsExcelRecords == null || dsExcelRecords.Tables.Count <= 0)
+        //    {
+                
+        //    }
+
+        //    return Ok("ok");
         //}
     }
 }

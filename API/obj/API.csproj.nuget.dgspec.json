@@ -47,9 +47,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "CsvHelper": {
+            "ExcelDataReader.DataSet": {
               "target": "Package",
-              "version": "[27.2.1, )"
+              "version": "[3.6.0, )"
             },
             "FirebaseAdmin": {
               "target": "Package",
