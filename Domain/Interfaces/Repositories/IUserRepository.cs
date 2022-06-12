@@ -1,9 +1,11 @@
-﻿using SECapstoneEvaluation.Domain.Entities;
+﻿using Domain.Entities;
 
-namespace SECapstoneEvaluation.Domain.Interfaces.Repositories
+namespace Domain.Interfaces.Repositories
 {
     public interface IUserRepository : IGenericRepository<User>
     {
         IQueryable<User> GetUserByEmail(string email);
+
+        IQueryable<User> GetUserByCode(string code);
     }
 }

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using SECapstoneEvaluation.Domain.Entities;
-using SECapstoneEvaluation.Domain.Interfaces.Repositories;
+using Domain.Entities;
+using Domain.Interfaces.Repositories;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
+namespace Infrastructure.Data.Repositories
 {
     public class CampusRepository : GenericRepository<Campus>, ICampusRepository
     {

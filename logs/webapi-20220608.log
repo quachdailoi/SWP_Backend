@@ -160,3 +160,1115 @@ FROM campuses AS c
 [2022-06-08 01:27:37.430 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.Login (API) in 1309.5551ms
 [2022-06-08 01:27:37.431 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.Login (API)'
 [2022-06-08 01:27:37.440 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/api/campuses/login - - - 200 - application/json;+charset=utf-8 1416.9337ms
+[2022-06-08 09:44:29.994 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 09:44:30.259 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 09:44:30.259 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 09:44:30.262 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 09:44:30.262 +07:00  INF]  Hosting environment: Development
+[2022-06-08 09:44:30.262 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 09:44:31.109 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 09:44:31.348 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 241.6018ms
+[2022-06-08 09:44:31.349 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 09:44:31.358 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 9.2200ms
+[2022-06-08 09:44:31.777 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 09:44:31.882 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.8748ms
+[2022-06-08 09:57:06.054 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 09:57:06.474 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 09:57:06.474 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 09:57:06.477 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 09:57:06.477 +07:00  INF]  Hosting environment: Development
+[2022-06-08 09:57:06.477 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 09:57:07.212 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 09:57:07.511 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 300.1297ms
+[2022-06-08 09:57:07.511 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 09:57:07.526 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 14.7483ms
+[2022-06-08 09:57:08.068 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 09:57:08.223 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.2893ms
+[2022-06-08 10:00:01.464 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 10:00:01.644 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 10:00:01.645 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 10:00:01.647 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 10:00:01.647 +07:00  INF]  Hosting environment: Development
+[2022-06-08 10:00:01.647 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 10:00:02.410 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 10:00:02.802 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 395.9777ms
+[2022-06-08 10:00:02.807 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 10:00:02.815 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 8.0127ms
+[2022-06-08 10:00:03.254 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 10:00:03.350 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.3233ms
+[2022-06-08 10:01:19.266 +07:00  INF]  Request starting HTTP/1.1 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=--------------------------695435905346167823679325 9087
+[2022-06-08 10:01:19.358 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 10:01:19.381 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 10:01:20.484 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 10:43:06.939 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 10:43:07.110 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 10:43:07.110 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 10:43:07.113 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 10:43:07.113 +07:00  INF]  Hosting environment: Development
+[2022-06-08 10:43:07.113 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 10:43:08.220 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 10:43:08.618 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 404.9404ms
+[2022-06-08 10:43:08.627 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 10:43:08.630 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.8186ms
+[2022-06-08 10:43:09.171 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 10:43:09.286 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.6634ms
+[2022-06-08 10:53:40.530 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 10:53:40.734 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 10:53:40.734 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 10:53:40.737 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 10:53:40.737 +07:00  INF]  Hosting environment: Development
+[2022-06-08 10:53:40.737 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 10:53:41.772 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 10:53:41.994 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 226.2615ms
+[2022-06-08 10:53:42.012 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 10:53:42.015 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 2.9966ms
+[2022-06-08 10:53:42.347 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 10:53:42.476 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.9356ms
+[2022-06-08 11:02:11.139 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 11:02:11.370 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 11:02:11.370 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 11:02:11.378 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 11:02:11.378 +07:00  INF]  Hosting environment: Development
+[2022-06-08 11:02:11.378 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 11:02:12.400 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 11:02:12.616 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 219.3031ms
+[2022-06-08 11:02:12.630 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 11:02:12.633 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 2.2737ms
+[2022-06-08 11:02:12.940 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 11:02:13.038 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.7450ms
+[2022-06-08 11:02:21.992 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses application/json 23
+[2022-06-08 11:02:21.999 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 11:02:22.074 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:02:22.094 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 11:02:23.030 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 11:02:23.085 +07:00  INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-06-08 11:02:23.100 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 996.7453ms
+[2022-06-08 11:02:23.101 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:02:23.111 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses application/json 23 - 400 - application/problem+json;+charset=utf-8 1119.0948ms
+[2022-06-08 11:03:02.073 +07:00  INF]  Request starting HTTP/1.1 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=--------------------------916843046262130649230689 9087
+[2022-06-08 11:03:02.074 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:03:02.074 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 11:03:02.092 +07:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2022-06-08 11:03:02.094 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 19.514ms
+[2022-06-08 11:03:02.094 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:03:02.095 +07:00  INF]  Request finished HTTP/1.1 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=--------------------------916843046262130649230689 9087 - 415 - application/problem+json;+charset=utf-8 21.5355ms
+[2022-06-08 11:08:26.004 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 11:08:26.185 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 11:08:26.185 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 11:08:26.187 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 11:08:26.187 +07:00  INF]  Hosting environment: Development
+[2022-06-08 11:08:26.187 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 11:08:26.897 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 11:08:27.279 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 386.2999ms
+[2022-06-08 11:08:27.290 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 11:08:27.294 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.5850ms
+[2022-06-08 11:08:27.683 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 11:08:27.886 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.0840ms
+[2022-06-08 11:08:35.562 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5JFSiksAX5wgJMp7 9063
+[2022-06-08 11:08:35.568 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 11:08:35.628 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:08:35.645 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 11:08:36.476 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 11:08:36.514 +07:00  INF]  Executing OkObjectResult, writing value of type 'System.String'.
+[2022-06-08 11:08:36.521 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 870.7821ms
+[2022-06-08 11:08:36.522 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 11:08:36.529 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5JFSiksAX5wgJMp7 9063 - 200 - text/plain;+charset=utf-8 967.1437ms
+[2022-06-08 13:32:00.405 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:32:00.767 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:32:00.767 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:32:00.769 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:32:00.769 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:32:00.770 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:32:01.562 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:32:01.857 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 297.4466ms
+[2022-06-08 13:32:01.857 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:32:01.861 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.9290ms
+[2022-06-08 13:32:02.402 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:32:02.483 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.0185ms
+[2022-06-08 13:36:24.511 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryciC075AL9hRlzvxI 9063
+[2022-06-08 13:36:24.522 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:36:24.602 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:36:24.630 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:36:25.621 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:36:25.848 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1212.8153ms
+[2022-06-08 13:36:25.850 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:36:25.851 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+OfficeOpenXml.LicenseException: Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+   at OfficeOpenXml.ExcelPackage.get_Workbook()
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 43
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:36:25.914 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryciC075AL9hRlzvxI 9063 - 500 - text/plain;+charset=utf-8 1402.6542ms
+[2022-06-08 13:38:34.138 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:38:34.305 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:38:34.306 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:38:34.308 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:38:34.308 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:38:34.308 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:38:35.887 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:38:36.106 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:38:36.107 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 222.8661ms
+[2022-06-08 13:38:36.116 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 10.0532ms
+[2022-06-08 13:38:36.457 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:38:36.668 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 211.1528ms
+[2022-06-08 13:38:44.622 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary1huvLbAsMeSy1ZMV 9063
+[2022-06-08 13:38:44.629 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:38:44.692 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:38:44.715 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:38:45.583 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:38:45.899 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1179.7266ms
+[2022-06-08 13:38:45.900 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:38:45.901 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:38:45.942 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary1huvLbAsMeSy1ZMV 9063 - 500 - text/plain;+charset=utf-8 1319.7665ms
+[2022-06-08 13:39:37.544 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:39:37.715 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:39:37.715 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:39:37.718 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:39:37.718 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:39:37.718 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:39:38.808 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:39:39.178 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 376.3107ms
+[2022-06-08 13:39:39.196 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:39:39.201 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.6394ms
+[2022-06-08 13:39:39.517 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:39:39.631 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.3595ms
+[2022-06-08 13:39:45.737 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryFq8xZ7QJdYwcsImX 9063
+[2022-06-08 13:39:45.746 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:39:45.831 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:39:45.864 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:39:46.633 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:39:46.958 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1089.6063ms
+[2022-06-08 13:39:46.959 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:39:46.960 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:39:47.001 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryFq8xZ7QJdYwcsImX 9063 - 500 - text/plain;+charset=utf-8 1263.4811ms
+[2022-06-08 13:43:26.833 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:43:27.009 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:43:27.009 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:43:27.011 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:43:27.011 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:43:27.012 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:43:28.195 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:43:28.411 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:43:28.412 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 221.3813ms
+[2022-06-08 13:43:28.420 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 9.0848ms
+[2022-06-08 13:43:28.759 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:43:28.853 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.8941ms
+[2022-06-08 13:43:34.512 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryzYZLAlNCbsT5GneN 9063
+[2022-06-08 13:43:34.523 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:43:34.593 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:43:34.615 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:43:35.494 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:46:48.798 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:46:49.005 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:46:49.005 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:46:49.008 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:46:49.008 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:46:49.009 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:46:50.022 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:46:50.449 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 431.8964ms
+[2022-06-08 13:46:50.478 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:46:50.482 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.1729ms
+[2022-06-08 13:46:50.954 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:46:51.050 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.7507ms
+[2022-06-08 13:47:01.412 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5xU1HrJvpRt7DnZx 9063
+[2022-06-08 13:47:01.419 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:47:01.486 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:47:01.509 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:47:02.310 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:47:02.608 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1094.7218ms
+[2022-06-08 13:47:02.610 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:47:02.611 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:47:02.648 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5xU1HrJvpRt7DnZx 9063 - 500 - text/plain;+charset=utf-8 1236.0861ms
+[2022-06-08 13:48:45.207 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:48:45.397 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:48:45.397 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:48:45.400 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:48:45.400 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:48:45.400 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:48:46.424 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:48:46.652 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 232.5451ms
+[2022-06-08 13:48:46.675 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:48:46.680 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.8224ms
+[2022-06-08 13:48:47.011 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:48:47.111 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.7384ms
+[2022-06-08 13:48:52.867 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryBvHeQgaqhra6NR9S 9089
+[2022-06-08 13:48:52.873 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:48:52.941 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:48:52.966 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:48:53.802 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:48:54.132 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1161.5117ms
+[2022-06-08 13:48:54.133 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:48:54.134 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:48:54.181 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryBvHeQgaqhra6NR9S 9089 - 500 - text/plain;+charset=utf-8 1314.4485ms
+[2022-06-08 13:49:26.836 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:49:27.097 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:49:27.097 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:49:27.107 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:49:27.107 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:49:27.107 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:49:28.385 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:49:28.625 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 243.0331ms
+[2022-06-08 13:49:28.638 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:49:28.643 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 5.4722ms
+[2022-06-08 13:49:28.969 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:49:29.068 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.9254ms
+[2022-06-08 13:49:31.944 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryg3VN8xDOkvL73SAy 135
+[2022-06-08 13:49:31.951 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:49:32.018 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:49:32.044 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:49:32.926 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:49:32.970 +07:00  INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-06-08 13:49:32.982 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 931.6232ms
+[2022-06-08 13:49:32.983 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:49:32.994 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryg3VN8xDOkvL73SAy 135 - 400 - application/problem+json;+charset=utf-8 1050.2138ms
+[2022-06-08 13:49:39.219 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryAqHcQgSi2r9qPeMI 9087
+[2022-06-08 13:49:39.220 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:49:39.220 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:49:39.221 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:50:24.725 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 45504.7825ms
+[2022-06-08 13:50:24.729 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:50:24.735 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:50:28.704 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryAqHcQgSi2r9qPeMI 9087 - 500 - text/plain;+charset=utf-8 49485.0645ms
+[2022-06-08 13:50:33.583 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarylzAigCMO63n67BCE 9087
+[2022-06-08 13:50:33.591 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:50:33.594 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:50:33.594 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:51:59.639 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:51:59.853 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:51:59.854 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:51:59.857 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:51:59.857 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:51:59.857 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:52:01.372 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:52:01.582 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:52:01.584 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 214.6230ms
+[2022-06-08 13:52:01.594 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 11.2860ms
+[2022-06-08 13:52:01.945 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:52:02.096 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.8083ms
+[2022-06-08 13:52:31.170 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryGi5YeBBhhLlP5P9l 9087
+[2022-06-08 13:52:31.178 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 13:52:31.265 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:52:31.290 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 13:52:32.203 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 13:52:32.594 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1299.1776ms
+[2022-06-08 13:52:32.595 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 13:52:32.596 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 13:52:32.642 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryGi5YeBBhhLlP5P9l 9087 - 500 - text/plain;+charset=utf-8 1471.4143ms
+[2022-06-08 13:59:30.470 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 13:59:30.695 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 13:59:30.695 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 13:59:30.697 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 13:59:30.697 +07:00  INF]  Hosting environment: Development
+[2022-06-08 13:59:30.697 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 13:59:31.878 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 13:59:32.169 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 297.2663ms
+[2022-06-08 13:59:32.183 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 13:59:32.186 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.2860ms
+[2022-06-08 13:59:32.505 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 13:59:32.600 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.2684ms
+[2022-06-08 14:00:11.660 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarydNLZpIr3uuAzdpER 9087
+[2022-06-08 14:00:11.668 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:00:11.729 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:00:11.751 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:00:12.558 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:00:12.902 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1146.2592ms
+[2022-06-08 14:00:12.904 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:00:12.905 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 14:00:12.949 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarydNLZpIr3uuAzdpER 9087 - 500 - text/plain;+charset=utf-8 1288.1498ms
+[2022-06-08 14:00:51.362 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:00:51.543 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:00:51.543 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:00:51.546 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:00:51.546 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:00:51.546 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:00:52.526 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:00:52.776 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 256.5078ms
+[2022-06-08 14:00:52.792 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:00:52.795 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.4695ms
+[2022-06-08 14:00:53.084 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:00:53.183 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.0887ms
+[2022-06-08 14:01:59.904 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryQBDvbtQ4gPdlpATZ 9087
+[2022-06-08 14:01:59.915 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:01:59.973 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:01:59.995 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:02:00.801 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:02:01.129 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1129.1809ms
+[2022-06-08 14:02:01.130 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:02:01.131 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 14:02:01.171 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryQBDvbtQ4gPdlpATZ 9087 - 500 - text/plain;+charset=utf-8 1266.6662ms
+[2022-06-08 14:02:21.424 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:02:21.653 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:02:21.653 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:02:21.656 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:02:21.656 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:02:21.657 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:02:22.684 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:02:22.902 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 220.3241ms
+[2022-06-08 14:02:22.910 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:02:22.914 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.3898ms
+[2022-06-08 14:02:23.380 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:02:23.514 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.1944ms
+[2022-06-08 14:03:16.304 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryYuJNLVZAiARSuHRm 9087
+[2022-06-08 14:03:16.314 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:03:16.380 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:03:16.401 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:03:17.301 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:03:17.603 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1198.1392ms
+[2022-06-08 14:03:17.605 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:03:17.606 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentException: Row out of range
+   at OfficeOpenXml.ExcelRange.ValidateRowCol(Int32 Row, Int32 Col)
+   at OfficeOpenXml.ExcelRange.get_Item(Int32 Row, Int32 Col)
+   at SECapstoneEvaluation.APIs.Services.CampusService.ReadExcelFile(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Services\CampusService.cs:line 48
+   at SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses(IFormFile file) in D:\DotNet_Study\projects\SECapstoneEvaluation\API\Controllers\CampusesController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 14:03:17.643 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryYuJNLVZAiARSuHRm 9087 - 500 - text/plain;+charset=utf-8 1338.8519ms
+[2022-06-08 14:03:49.995 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:03:50.275 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:03:50.275 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:03:50.278 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:03:50.278 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:03:50.279 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:03:51.700 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:03:51.938 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 245.0902ms
+[2022-06-08 14:03:51.957 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:03:51.961 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.3137ms
+[2022-06-08 14:03:52.273 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:03:52.376 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.6568ms
+[2022-06-08 14:06:07.062 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5IttnWL7GE8kt4pP 9087
+[2022-06-08 14:06:07.071 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:06:07.129 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:06:07.155 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:06:08.037 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:06:08.355 +07:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SECapstoneEvaluation.Domain.Entities.Campus, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-06-08 14:06:08.368 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1207.9274ms
+[2022-06-08 14:06:08.369 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:06:08.377 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundary5IttnWL7GE8kt4pP 9087 - 200 - application/json;+charset=utf-8 1315.5110ms
+[2022-06-08 14:06:52.129 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:06:52.461 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:06:52.461 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:06:52.465 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:06:52.465 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:06:52.465 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:06:53.290 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:06:53.694 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 416.1440ms
+[2022-06-08 14:06:53.715 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:06:53.719 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.3829ms
+[2022-06-08 14:06:54.330 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:06:54.442 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.1573ms
+[2022-06-08 14:07:00.344 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarydJACUoBhPrbkhlXP 9087
+[2022-06-08 14:07:00.351 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:07:00.414 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:07:00.435 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:07:01.255 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:07:01.544 +07:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SECapstoneEvaluation.Domain.Entities.Campus, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-06-08 14:07:01.559 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1118.0076ms
+[2022-06-08 14:07:01.560 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:07:01.569 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarydJACUoBhPrbkhlXP 9087 - 200 - application/json;+charset=utf-8 1224.6327ms
+[2022-06-08 14:07:47.650 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:07:47.924 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:07:47.924 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:07:47.927 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:07:47.927 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:07:47.927 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:07:48.811 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:07:49.060 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 251.9923ms
+[2022-06-08 14:07:49.075 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:07:49.080 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 5.7417ms
+[2022-06-08 14:07:49.549 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:07:49.698 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.5630ms
+[2022-06-08 14:07:54.938 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryIB7EYSIlveTB3ncW 9087
+[2022-06-08 14:07:54.945 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:07:55.019 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:07:55.044 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:07:55.995 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:07:56.239 +07:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SECapstoneEvaluation.Domain.Entities.Campus, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-06-08 14:07:56.252 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1203.2392ms
+[2022-06-08 14:07:56.253 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:07:56.261 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundaryIB7EYSIlveTB3ncW 9087 - 200 - application/json;+charset=utf-8 1323.2331ms
+[2022-06-08 14:08:15.885 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 14:08:16.084 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 14:08:16.084 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 14:08:16.087 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 14:08:16.087 +07:00  INF]  Hosting environment: Development
+[2022-06-08 14:08:16.087 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 14:08:16.775 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 14:08:17.076 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 305.5629ms
+[2022-06-08 14:08:17.101 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 14:08:17.105 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.3465ms
+[2022-06-08 14:08:17.609 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 14:08:17.766 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.4174ms
+[2022-06-08 14:08:23.680 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarynoRSblzwNXFnzwDy 9087
+[2022-06-08 14:08:23.687 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 14:08:23.748 +07:00  INF]  Executing endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:08:23.778 +07:00  INF]  Route matched with {action = "CreateCampuses", controller = "Campuses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCampuses(Microsoft.AspNetCore.Http.IFormFile) on controller SECapstoneEvaluation.APIs.Controllers.CampusesController (API).
+[2022-06-08 14:08:24.667 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 14:08:24.893 +07:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[SECapstoneEvaluation.Domain.Entities.Campus, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-06-08 14:08:24.905 +07:00  INF]  Executed action SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API) in 1121.1094ms
+[2022-06-08 14:08:24.905 +07:00  INF]  Executed endpoint 'SECapstoneEvaluation.APIs.Controllers.CampusesController.CreateCampuses (API)'
+[2022-06-08 14:08:24.915 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/campuses multipart/form-data;+boundary=----WebKitFormBoundarynoRSblzwNXFnzwDy 9087 - 200 - application/json;+charset=utf-8 1235.3625ms
+[2022-06-08 15:23:14.242 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:12:43.810 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:12:44.145 +07:00  INF]  Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+[2022-06-08 16:12:44.169 +07:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+[2022-06-08 16:12:44.186 +07:00  INF]  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2022-06-08 16:12:44.203 +07:00  INF]  Applying migration '20220608082314_AddCapstoneTeamSemesterTopicTables'.
+[2022-06-08 16:12:44.346 +07:00  ERR]  Failed executing DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE campuses (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    code character varying(20) NOT NULL,
+    name character varying(50) NOT NULL,
+    created_at timestamp with time zone NULL,
+    created_by text NULL,
+    updated_at timestamp with time zone NULL,
+    updated_by text NULL,
+    is_deleted boolean NOT NULL,
+    CONSTRAINT "PK_campuses" PRIMARY KEY (id)
+);
+[2022-06-08 16:15:34.797 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:21:12.153 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:21:32.093 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:23:35.813 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:25:13.784 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 16:25:14.069 +07:00  INF]  Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+[2022-06-08 16:25:14.184 +07:00  INF]  Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+[2022-06-08 16:25:14.197 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+[2022-06-08 16:25:14.201 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[2022-06-08 16:25:14.215 +07:00  INF]  Applying migration '20220608092132_InitDB'.
+[2022-06-08 16:25:14.279 +07:00  INF]  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE campuses (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    code character varying(20) NOT NULL,
+    name character varying(50) NOT NULL,
+    created_at timestamp with time zone NULL,
+    created_by text NULL,
+    updated_at timestamp with time zone NULL,
+    updated_by text NULL,
+    is_deleted boolean NOT NULL,
+    CONSTRAINT "PK_campuses" PRIMARY KEY (id)
+);
+[2022-06-08 16:25:14.287 +07:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE roles (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name character varying(50) NOT NULL,
+    created_at timestamp with time zone NULL,
+    created_by text NULL,
+    updated_at timestamp with time zone NULL,
+    updated_by text NULL,
+    is_deleted boolean NOT NULL,
+    CONSTRAINT "PK_roles" PRIMARY KEY (id)
+);
+[2022-06-08 16:25:14.295 +07:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Semester" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "StartAt" timestamp with time zone NOT NULL,
+    "EndAt" timestamp with time zone NOT NULL,
+    "CreatedAt" timestamp with time zone NULL,
+    "CreatedBy" text NULL,
+    "UpdatedAt" timestamp with time zone NULL,
+    "UpdatedBy" text NULL,
+    "IsDeleted" boolean NOT NULL,
+    CONSTRAINT "PK_Semester" PRIMARY KEY ("Id")
+);
+[2022-06-08 16:25:14.303 +07:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Topic" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Name" text NOT NULL,
+    "Code" text NOT NULL,
+    "Description" text NOT NULL,
+    "CreatedAt" timestamp with time zone NULL,
+    "CreatedBy" text NULL,
+    "UpdatedAt" timestamp with time zone NULL,
+    "UpdatedBy" text NULL,
+    "IsDeleted" boolean NOT NULL,
+    CONSTRAINT "PK_Topic" PRIMARY KEY ("Id")
+);
+[2022-06-08 16:25:14.316 +07:00  INF]  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE users (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    campus_id integer NOT NULL,
+    name character varying(50) NOT NULL,
+    avatar character varying(200) NOT NULL,
+    email character varying(50) NOT NULL,
+    gender boolean NOT NULL,
+    birthday timestamp with time zone NOT NULL,
+    code character varying(20) NOT NULL,
+    phone character varying(20) NOT NULL,
+    status boolean NOT NULL,
+    created_at timestamp with time zone NULL,
+    created_by text NULL,
+    updated_at timestamp with time zone NULL,
+    updated_by text NULL,
+    is_deleted boolean NOT NULL,
+    CONSTRAINT "PK_users" PRIMARY KEY (id),
+    CONSTRAINT "FK_users_campuses_campus_id" FOREIGN KEY (campus_id) REFERENCES campuses (id) ON DELETE CASCADE
+);
+[2022-06-08 16:25:14.327 +07:00  INF]  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "CapstoneTeam" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "Code" text NOT NULL,
+    "Status" integer NOT NULL,
+    "SemesterId" integer NOT NULL,
+    "TopicId" integer NOT NULL,
+    "CreatedAt" timestamp with time zone NULL,
+    "CreatedBy" text NULL,
+    "UpdatedAt" timestamp with time zone NULL,
+    "UpdatedBy" text NULL,
+    "IsDeleted" boolean NOT NULL,
+    CONSTRAINT "PK_CapstoneTeam" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_CapstoneTeam_Semester_SemesterId" FOREIGN KEY ("SemesterId") REFERENCES "Semester" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_CapstoneTeam_Topic_TopicId" FOREIGN KEY ("TopicId") REFERENCES "Topic" ("Id") ON DELETE CASCADE
+);
+[2022-06-08 16:25:14.337 +07:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE role_users (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    role_id integer NOT NULL,
+    user_id integer NOT NULL,
+    examination_council_id integer NULL,
+    capstone_team_id integer NULL,
+    created_at timestamp with time zone NULL,
+    created_by text NULL,
+    updated_at timestamp with time zone NULL,
+    updated_by text NULL,
+    is_deleted boolean NOT NULL,
+    CONSTRAINT "PK_role_users" PRIMARY KEY (id),
+    CONSTRAINT "FK_role_users_CapstoneTeam_capstone_team_id" FOREIGN KEY (capstone_team_id) REFERENCES "CapstoneTeam" ("Id"),
+    CONSTRAINT "FK_role_users_roles_role_id" FOREIGN KEY (role_id) REFERENCES roles (id) ON DELETE CASCADE,
+    CONSTRAINT "FK_role_users_users_user_id" FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+);
+[2022-06-08 16:25:14.342 +07:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO campuses (id, code, created_at, created_by, is_deleted, name, updated_at, updated_by)
+VALUES (1, 'FPTU HN', NULL, '', FALSE, 'FPT University Ha Noi', NULL, '');
+INSERT INTO campuses (id, code, created_at, created_by, is_deleted, name, updated_at, updated_by)
+VALUES (2, 'FPTU HCM', NULL, '', FALSE, 'FPT University Ho Chi Minh', NULL, '');
+INSERT INTO campuses (id, code, created_at, created_by, is_deleted, name, updated_at, updated_by)
+VALUES (3, 'FPTU DN', NULL, '', FALSE, 'FPT University Da Nang', NULL, '');
+INSERT INTO campuses (id, code, created_at, created_by, is_deleted, name, updated_at, updated_by)
+VALUES (4, 'FPTU CT', NULL, '', FALSE, 'FPT University Can Tho', NULL, '');
+[2022-06-08 16:25:14.343 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO roles (id, created_at, created_by, is_deleted, name, updated_at, updated_by)
+VALUES (1, NULL, '', FALSE, 'Student', NULL, '');
+[2022-06-08 16:25:14.348 +07:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO users (id, avatar, birthday, campus_id, code, created_at, created_by, email, gender, is_deleted, name, phone, status, updated_at, updated_by)
+VALUES (1, '', TIMESTAMPTZ '2022-06-08 09:21:32.140332Z', 2, 'SE140970', NULL, '', 'loiqdse140970@fpt.edu.vn', FALSE, FALSE, 'Quach Dai Loi', '0837226239', TRUE, NULL, '');
+INSERT INTO users (id, avatar, birthday, campus_id, code, created_at, created_by, email, gender, is_deleted, name, phone, status, updated_at, updated_by)
+VALUES (2, '', TIMESTAMPTZ '2022-06-08 09:21:32.140333Z', 2, 'SE140977', NULL, '', 'khoandse140977@fpt.edu.vn', FALSE, FALSE, 'Nguyen Dang Khoa', '0123123123', TRUE, NULL, '');
+INSERT INTO users (id, avatar, birthday, campus_id, code, created_at, created_by, email, gender, is_deleted, name, phone, status, updated_at, updated_by)
+VALUES (3, '', TIMESTAMPTZ '2022-06-08 09:21:32.14034Z', 2, 'SE14091', NULL, '', 'duyttse140971@fpt.edu.vn', FALSE, FALSE, 'Than Thanh Duy', '0123123123', TRUE, NULL, '');
+[2022-06-08 16:25:14.350 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO role_users (id, capstone_team_id, created_at, created_by, examination_council_id, is_deleted, role_id, updated_at, updated_by, user_id)
+VALUES (1, NULL, NULL, '', NULL, FALSE, 1, NULL, '', 1);
+INSERT INTO role_users (id, capstone_team_id, created_at, created_by, examination_council_id, is_deleted, role_id, updated_at, updated_by, user_id)
+VALUES (2, NULL, NULL, '', NULL, FALSE, 1, NULL, '', 2);
+INSERT INTO role_users (id, capstone_team_id, created_at, created_by, examination_council_id, is_deleted, role_id, updated_at, updated_by, user_id)
+VALUES (3, NULL, NULL, '', NULL, FALSE, 1, NULL, '', 3);
+[2022-06-08 16:25:14.354 +07:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_CapstoneTeam_SemesterId" ON "CapstoneTeam" ("SemesterId");
+[2022-06-08 16:25:14.358 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_CapstoneTeam_TopicId" ON "CapstoneTeam" ("TopicId");
+[2022-06-08 16:25:14.361 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_role_users_capstone_team_id" ON role_users (capstone_team_id);
+[2022-06-08 16:25:14.364 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_role_users_role_id" ON role_users (role_id);
+[2022-06-08 16:25:14.367 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_role_users_user_id" ON role_users (user_id);
+[2022-06-08 16:25:14.370 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_users_campus_id" ON users (campus_id);
+[2022-06-08 16:25:14.377 +07:00  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT setval(
+    pg_get_serial_sequence('campuses', 'id'),
+    GREATEST(
+        (SELECT MAX(id) FROM campuses) + 1,
+        nextval(pg_get_serial_sequence('campuses', 'id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('roles', 'id'),
+    GREATEST(
+        (SELECT MAX(id) FROM roles) + 1,
+        nextval(pg_get_serial_sequence('roles', 'id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('users', 'id'),
+    GREATEST(
+        (SELECT MAX(id) FROM users) + 1,
+        nextval(pg_get_serial_sequence('users', 'id'))),
+    false);
+SELECT setval(
+    pg_get_serial_sequence('role_users', 'id'),
+    GREATEST(
+        (SELECT MAX(id) FROM role_users) + 1,
+        nextval(pg_get_serial_sequence('role_users', 'id'))),
+    false);
+[2022-06-08 16:25:14.378 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220608092132_InitDB', '6.0.5');
+[2022-06-08 16:25:14.383 +07:00  INF]  Applying migration '20220608092336_AddCapstoneTeamSemesterTopicTables'.
+[2022-06-08 16:25:14.406 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "CapstoneTeam" DROP CONSTRAINT "FK_CapstoneTeam_Semester_SemesterId";
+[2022-06-08 16:25:14.408 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "CapstoneTeam" DROP CONSTRAINT "FK_CapstoneTeam_Topic_TopicId";
+[2022-06-08 16:25:14.410 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE role_users DROP CONSTRAINT "FK_role_users_CapstoneTeam_capstone_team_id";
+[2022-06-08 16:25:14.412 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Topic" DROP CONSTRAINT "PK_Topic";
+[2022-06-08 16:25:14.413 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Semester" DROP CONSTRAINT "PK_Semester";
+[2022-06-08 16:25:14.415 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "CapstoneTeam" DROP CONSTRAINT "PK_CapstoneTeam";
+[2022-06-08 16:25:14.416 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX "IX_CapstoneTeam_TopicId";
+[2022-06-08 16:25:14.417 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Topic" RENAME TO topics;
+[2022-06-08 16:25:14.418 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Semester" RENAME TO semesters;
+[2022-06-08 16:25:14.419 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "CapstoneTeam" RENAME TO capstone_teams;
+[2022-06-08 16:25:14.419 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "Name" TO name;
+[2022-06-08 16:25:14.420 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "Description" TO description;
+[2022-06-08 16:25:14.421 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "Id" TO id;
+[2022-06-08 16:25:14.422 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "UpdatedBy" TO updated_by;
+[2022-06-08 16:25:14.422 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "UpdatedAt" TO updated_at;
+[2022-06-08 16:25:14.423 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "IsDeleted" TO is_deleted;
+[2022-06-08 16:25:14.424 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "CreatedBy" TO created_by;
+[2022-06-08 16:25:14.425 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics RENAME COLUMN "CreatedAt" TO created_at;
+[2022-06-08 16:25:14.426 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "Name" TO name;
+[2022-06-08 16:25:14.427 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "Id" TO id;
+[2022-06-08 16:25:14.427 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "UpdatedBy" TO updated_by;
+[2022-06-08 16:25:14.428 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "UpdatedAt" TO updated_at;
+[2022-06-08 16:25:14.429 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "StartAt" TO start_at;
+[2022-06-08 16:25:14.430 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "IsDeleted" TO is_deleted;
+[2022-06-08 16:25:14.430 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "EndAt" TO end_at;
+[2022-06-08 16:25:14.431 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "CreatedBy" TO created_by;
+[2022-06-08 16:25:14.432 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters RENAME COLUMN "CreatedAt" TO created_at;
+[2022-06-08 16:25:14.433 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "Status" TO status;
+[2022-06-08 16:25:14.433 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "Code" TO code;
+[2022-06-08 16:25:14.434 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "Id" TO id;
+[2022-06-08 16:25:14.435 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "UpdatedBy" TO updated_by;
+[2022-06-08 16:25:14.435 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "UpdatedAt" TO updated_at;
+[2022-06-08 16:25:14.436 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "TopicId" TO topic_id;
+[2022-06-08 16:25:14.437 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "SemesterId" TO semester_id;
+[2022-06-08 16:25:14.438 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "IsDeleted" TO is_deleted;
+[2022-06-08 16:25:14.438 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "CreatedBy" TO created_by;
+[2022-06-08 16:25:14.439 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams RENAME COLUMN "CreatedAt" TO created_at;
+[2022-06-08 16:25:14.440 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER INDEX "IX_CapstoneTeam_SemesterId" RENAME TO "IX_capstone_teams_semester_id";
+[2022-06-08 16:25:14.448 +07:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics ALTER COLUMN name TYPE character varying(50);
+[2022-06-08 16:25:14.454 +07:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics ALTER COLUMN description TYPE character varying(500);
+[2022-06-08 16:25:14.455 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics ALTER COLUMN id 
+DROP IDENTITY;
+[2022-06-08 16:25:14.461 +07:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters ALTER COLUMN name TYPE character varying(50);
+[2022-06-08 16:25:14.469 +07:00  INF]  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams ALTER COLUMN code TYPE character varying(20);
+[2022-06-08 16:25:14.474 +07:00  INF]  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics ADD CONSTRAINT "PK_topics" PRIMARY KEY (id);
+[2022-06-08 16:25:14.477 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE semesters ADD CONSTRAINT "PK_semesters" PRIMARY KEY (id);
+[2022-06-08 16:25:14.480 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams ADD CONSTRAINT "PK_capstone_teams" PRIMARY KEY (id);
+[2022-06-08 16:25:14.482 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET birthday = TIMESTAMPTZ '2022-06-08 09:23:35.866102Z'
+WHERE id = 1;
+[2022-06-08 16:25:14.483 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET birthday = TIMESTAMPTZ '2022-06-08 09:23:35.866103Z'
+WHERE id = 2;
+[2022-06-08 16:25:14.484 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE users SET birthday = TIMESTAMPTZ '2022-06-08 09:23:35.866104Z'
+WHERE id = 3;
+[2022-06-08 16:25:14.486 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE capstone_teams ADD CONSTRAINT "FK_capstone_teams_semesters_semester_id" FOREIGN KEY (semester_id) REFERENCES semesters (id) ON DELETE CASCADE;
+[2022-06-08 16:25:14.488 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE role_users ADD CONSTRAINT "FK_role_users_capstone_teams_capstone_team_id" FOREIGN KEY (capstone_team_id) REFERENCES capstone_teams (id);
+[2022-06-08 16:25:14.490 +07:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE topics ADD CONSTRAINT "FK_topics_capstone_teams_id" FOREIGN KEY (id) REFERENCES capstone_teams (id) ON DELETE CASCADE;
+[2022-06-08 16:25:14.491 +07:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220608092336_AddCapstoneTeamSemesterTopicTables', '6.0.5');
+[2022-06-08 20:48:34.348 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 20:48:34.566 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 20:48:34.566 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 20:48:34.568 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 20:48:34.568 +07:00  INF]  Hosting environment: Development
+[2022-06-08 20:48:34.568 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 20:48:35.325 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 20:48:35.599 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 277.2971ms
+[2022-06-08 20:48:35.622 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 20:48:35.626 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 3.6600ms
+[2022-06-08 20:48:36.093 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 20:48:36.209 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.6194ms
+[2022-06-08 20:51:26.995 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/capstoneteams multipart/form-data;+boundary=----WebKitFormBoundary6imiMi8ZJaKcQAmK 9201
+[2022-06-08 20:51:27.003 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 20:51:27.093 +07:00  INF]  Executing endpoint 'API.Controllers.CapstoneTeamsController.CreateCapstoneTeam (API)'
+[2022-06-08 20:51:27.124 +07:00  INF]  Route matched with {action = "CreateCapstoneTeam", controller = "CapstoneTeams"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCapstoneTeam(Microsoft.AspNetCore.Http.IFormFile) on controller API.Controllers.CapstoneTeamsController (API).
+[2022-06-08 20:51:27.132 +07:00  INF]  Executed action API.Controllers.CapstoneTeamsController.CreateCapstoneTeam (API) in 3.153ms
+[2022-06-08 20:51:27.133 +07:00  INF]  Executed endpoint 'API.Controllers.CapstoneTeamsController.CreateCapstoneTeam (API)'
+[2022-06-08 20:51:27.135 +07:00  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'API.Services.Constracts.ICapstoneTeamService' while attempting to activate 'API.Controllers.CapstoneTeamsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-06-08 20:51:27.188 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/capstoneteams multipart/form-data;+boundary=----WebKitFormBoundary6imiMi8ZJaKcQAmK 9201 - 500 - text/plain;+charset=utf-8 193.2893ms
+[2022-06-08 20:53:28.825 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 20:53:30.432 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 20:53:30.432 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 20:53:30.435 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 20:53:30.435 +07:00  INF]  Hosting environment: Development
+[2022-06-08 20:53:30.435 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 20:53:31.197 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 20:53:32.039 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 845.5078ms
+[2022-06-08 20:53:32.040 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 20:53:32.084 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 44.4913ms
+[2022-06-08 20:53:32.378 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 20:53:32.544 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.4108ms
+[2022-06-08 20:53:44.420 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/capstoneteams multipart/form-data;+boundary=----WebKitFormBoundarytkhdxsSoSn9XPSNU 9201
+[2022-06-08 20:53:44.428 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 20:53:44.571 +07:00  INF]  Executing endpoint 'API.Controllers.CapstoneTeamsController.CreateCapstoneTeam (API)'
+[2022-06-08 20:53:44.619 +07:00  INF]  Route matched with {action = "CreateCapstoneTeam", controller = "CapstoneTeams"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCapstoneTeam(Microsoft.AspNetCore.Http.IFormFile) on controller API.Controllers.CapstoneTeamsController (API).
+[2022-06-08 21:01:40.406 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 21:01:40.637 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 21:01:40.637 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 21:01:40.640 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 21:01:40.640 +07:00  INF]  Hosting environment: Development
+[2022-06-08 21:01:40.640 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 21:01:42.645 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 21:01:44.167 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 21:01:44.172 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 1529.2475ms
+[2022-06-08 21:01:44.172 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 5.4151ms
+[2022-06-08 21:01:44.547 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 21:01:44.656 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.0722ms
+[2022-06-08 22:21:17.619 +07:00  INF]  User profile is available. Using 'C:\Users\quach\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-08 22:21:17.851 +07:00  INF]  Now listening on: https://localhost:7066
+[2022-06-08 22:21:17.851 +07:00  INF]  Now listening on: http://localhost:5066
+[2022-06-08 22:21:17.853 +07:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-08 22:21:17.853 +07:00  INF]  Hosting environment: Development
+[2022-06-08 22:21:17.853 +07:00  INF]  Content root path: D:\DotNet_Study\projects\SECapstoneEvaluation\API\
+[2022-06-08 22:21:19.034 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/index.html - -
+[2022-06-08 22:21:19.409 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/index.html - - - 200 - text/html;charset=utf-8 378.7059ms
+[2022-06-08 22:21:19.431 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-08 22:21:19.435 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/_framework/aspnetcore-browser-refresh.js - - - 200 11964 application/javascript;+charset=utf-8 4.5511ms
+[2022-06-08 22:21:20.434 +07:00  INF]  Request starting HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - -
+[2022-06-08 22:21:20.546 +07:00  INF]  Request finished HTTP/2 GET https://localhost:7066/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.1985ms
+[2022-06-08 22:22:15.598 +07:00  INF]  Request starting HTTP/2 POST https://localhost:7066/api/users/login application/json 1244
+[2022-06-08 22:22:15.608 +07:00  INF]  CORS policy execution successful.
+[2022-06-08 22:22:15.686 +07:00  INF]  Executing endpoint 'API.Controllers.UsersController.Login (API)'
+[2022-06-08 22:22:15.716 +07:00  INF]  Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(API.DTOs.Request.LoginRequest) on controller API.Controllers.UsersController (API).
+[2022-06-08 22:22:16.712 +07:00  INF]  Entity Framework Core 6.0.5 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.4+6cb649128e3e7aa8eddd77dfa75b34bad51e6e94' with options: MaxPoolSize=1024 
+[2022-06-08 22:22:17.694 +07:00  INF]  Executed DbCommand (64ms) [Parameters=[@__email_1='?', @__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id AS "Id", @__email_1 AS "Email", u.campus_id AS "CampusId", u.code AS "Code", u.name AS "Name", u.birthday AS "Birthday", u.phone AS "Phone", u.gender AS "Gender", r.role_id AS "RoleId", r0.name AS "RoleName"
+FROM users AS u
+INNER JOIN role_users AS r ON u.id = r.user_id
+INNER JOIN roles AS r0 ON r.role_id = r0.id
+WHERE u.email = @__email_0
+LIMIT 1
+[2022-06-08 22:22:17.726 +07:00  INF]  Executed DbCommand (3ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u.id AS "Id", u.email AS "Email", u.campus_id AS "CampusId", u.code AS "Code", u.name AS "Name", u.birthday AS "Birthday", u.phone AS "Phone", u.gender AS "Gender", r0.id AS "RoleId", r0.name AS "RoleName"
+FROM users AS u
+INNER JOIN role_users AS r ON u.id = r.user_id
+INNER JOIN roles AS r0 ON r.role_id = r0.id
+WHERE u.email = @__email_0
+LIMIT 1
+[2022-06-08 22:22:17.820 +07:00  INF]  Executing JsonResult, writing value of type 'API.DTOs.Response.BaseResponse'.
+[2022-06-08 22:22:17.833 +07:00  INF]  Executed action API.Controllers.UsersController.Login (API) in 2110.5564ms
+[2022-06-08 22:22:17.835 +07:00  INF]  Executed endpoint 'API.Controllers.UsersController.Login (API)'
+[2022-06-08 22:22:17.843 +07:00  INF]  Request finished HTTP/2 POST https://localhost:7066/api/users/login application/json 1244 - 200 - application/json;+charset=utf-8 2245.5337ms

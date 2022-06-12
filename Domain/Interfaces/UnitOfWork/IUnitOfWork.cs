@@ -1,6 +1,7 @@
-﻿using SECapstoneEvaluation.Domain.Interfaces.Repositories;
+﻿using Domain.Interfaces.Repositories;
+using Domain.Shared.Enums;
 
-namespace SECapstoneEvaluation.Domain.Interfaces.UnitOfWork
+namespace Domain.Interfaces.UnitOfWork
 {
     public interface IUnitOfWork
     {

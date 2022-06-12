@@ -1,6 +1,6 @@
-﻿namespace SECapstoneEvaluation.APIs.DTOs
+﻿namespace API.DTOs
 {
-    public class UserRoleDto
+    public class UserRolesDto
     {
         public int Id { get; set; }
         public int CampusId { get; set; }
@@ -11,7 +11,6 @@
         public string Code { get; set; } = string.Empty;
         public string Phone { get; set; } = string.Empty;
 
-        public int RoleId { get; set; }
-        public string RoleName { get; set; } = string.Empty;
+        public List<RoleDto> Roles { get; set; }
     }
 }

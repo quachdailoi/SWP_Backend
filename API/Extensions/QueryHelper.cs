@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace SECapstoneEvaluation.APIs.Extensions
+namespace API.Extensions
 {
     public static class QueryHelper
     {

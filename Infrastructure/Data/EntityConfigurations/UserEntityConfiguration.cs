@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SECapstoneEvaluation.Domain.Entities;
+using Domain.Entities;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.EntityConfigurations
+namespace Infrastructure.Data.EntityConfigurations
 {
     public class UserEntityConfiguration : BaseEntityConfiguration<User>
     {
@@ -20,6 +20,10 @@ namespace SECapstoneEvaluation.Infrastructure.Data.EntityConfigurations
                 .IsRequired()
                 .HasMaxLength(50)
                 .HasColumnName("name");
+
+            builder.Property(e => e.Avatar)
+                .HasMaxLength(200)
+                .HasColumnName("avatar");
 
             builder.Property(e => e.Email)
                 .IsRequired()

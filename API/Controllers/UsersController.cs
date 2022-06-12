@@ -3,29 +3,29 @@ using API.DTOs.Response;
 using FirebaseAdmin.Auth;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SECapstoneEvaluation.APIs.JwtFeatures;
-using SECapstoneEvaluation.APIs.Services.Constracts;
+using API.JwtFeatures;
+using API.Services.Constracts;
 
-namespace SECapstoneEvaluation.APIs.Controllers
+namespace API.Controllers
 {
     [Route("api/users")]
     [ApiController]
     public class UsersController : ControllerBase
     {
         private readonly IConfiguration configuration;
-        private readonly IUserService service;
+        private readonly IUserService userService;
         private readonly JwtHandler jwtHandler;
 
-        public UsersController(IConfiguration configuration, IUserService service)
+        public UsersController(IConfiguration configuration, IUserService userService)
         {
             this.configuration = configuration;
-            this.service = service;
+            this.userService = userService;
             jwtHandler = new JwtHandler(configuration);
         }
 
-        
+
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody]LoginRequest request)
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
             FirebaseAuth firebaseAuth = FirebaseAuth.DefaultInstance;
 
@@ -35,8 +35,10 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             if (verifiedIdToken == null)
             {
-                response.SetStatusCode(StatusCodes.Status400BadRequest)
-                    .SetMessage("Login failed.");
+                response = new(
+                    StatusCode: StatusCodes.Status400BadRequest,
+                    Message: "Login failed."
+                );
                 return BadRequest(response);
             }
 
@@ -44,7 +46,7 @@ namespace SECapstoneEvaluation.APIs.Controllers
 
             string email = claims["email"];
 
-            var user = await service.GetUserByEmail(email);
+            var user = await userService.GetUserRolesDtoByEmail(email);
 
             if (user == null)
             {
@@ -79,5 +81,5 @@ namespace SECapstoneEvaluation.APIs.Controllers
         {
             return;
         }
-    }    
+    }
 }

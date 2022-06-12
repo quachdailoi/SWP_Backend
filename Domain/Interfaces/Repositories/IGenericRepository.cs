@@ -1,10 +1,10 @@
 ﻿using System.Linq.Expressions;
 
-namespace SECapstoneEvaluation.Domain.Interfaces.Repositories
+namespace Domain.Interfaces.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task Add(T entity);
+        Task<T> Add(T entity);
 
         Task Update(T entity);
 

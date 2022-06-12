@@ -1,9 +1,14 @@
-﻿using SECapstoneEvaluation.APIs.DTOs;
+﻿using API.DTOs;
+using Domain.Entities;
 
-namespace SECapstoneEvaluation.APIs.Services.Constracts
+namespace API.Services.Constracts
 {
-    public interface IUserService
+    public interface IUserService 
     {
-        Task<UserRoleDto?> GetUserByEmail(string email);
+        Task<UserRolesDto?> GetUserRolesDtoByEmail(string email);
+
+        Task<UserRolesDto?> GetUserRolesDtoByCode(string code);
+
+        IEnumerable<UserRolesDto> GetUserRolesDtosByUserIds(List<int> ids);
     }
 }

@@ -1,6 +1,7 @@
-﻿using SECapstoneEvaluation.Domain.Base;
+﻿using Domain.Entities;
+using Domain.Base;
 
-namespace SECapstoneEvaluation.Domain.Entities
+namespace Domain.Entities
 {
     public class RoleUser : BaseEntity
     {
@@ -11,5 +12,6 @@ namespace SECapstoneEvaluation.Domain.Entities
 
         public Role Role { get; set; }
         public User User { get; set; }
+        public CapstoneTeam? CapstoneTeam { get; set; }
     }
 }

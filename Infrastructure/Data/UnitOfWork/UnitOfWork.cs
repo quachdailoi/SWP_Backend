@@ -1,36 +1,50 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
-using SECapstoneEvaluation.Domain.Interfaces.Repositories;
-using SECapstoneEvaluation.Domain.Interfaces.UnitOfWork;
+using Domain.Interfaces.Repositories;
+using Domain.Interfaces.UnitOfWork;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.UnitOfWork
+namespace Infrastructure.Data.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        private readonly DbContext _dbContext;
-        private IDbContextTransaction? _dbTransaction;
-        private bool _disposed;
-        private readonly ILogger _logger;
+        private readonly DbContext dbContext;
+        private IDbContextTransaction? dbTransaction;
+        private bool disposed;
+        private readonly ILogger logger;
 
         public IUserRepository User { get; private set; }
         public IRoleUserRepository RoleUser { get; private set; }
         public IRoleRepository Role { get; private set; }
 
+        public ITopicRepository Topic { get; set; }
+        public ISemesterRepository Semester { get; set; }
+        public ICapstoneTeamRepository CapstoneTeam { get; set; }
+
         public UnitOfWork(AppDbContext dbContext, ILoggerFactory loggerFactory)
         {
-            this._dbContext = dbContext;
-            this._logger = loggerFactory.CreateLogger("logs");
+            this.dbContext = dbContext;
+            this.logger = loggerFactory.CreateLogger("logs");
         }
 
-        public Task CommitAsync()
+        public async Task CommitAsync()
         {
-            return _dbContext.SaveChangesAsync();
+            if (dbTransaction != null)
+            {
+                await dbTransaction.CommitAsync();
+            }
         }
 
         public async Task CreateTransactionAsync()
         {
-            _dbTransaction = await _dbContext.Database.BeginTransactionAsync();
+            try
+            {
+                dbTransaction = await dbContext.Database.BeginTransactionAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.StackTrace);
+            }
         }
 
         public void Dispose()
@@ -41,10 +55,11 @@ namespace SECapstoneEvaluation.Infrastructure.Data.UnitOfWork
 
         public async Task Rollback()
         {
-            if (_dbTransaction != null)
+            if (dbTransaction != null && !disposed)
             {
-                await _dbTransaction.RollbackAsync();
-                await _dbTransaction.DisposeAsync();
+                await dbTransaction.RollbackAsync();
+                await dbTransaction.DisposeAsync();
+                disposed = true;
             }
         }
 
@@ -52,20 +67,20 @@ namespace SECapstoneEvaluation.Infrastructure.Data.UnitOfWork
         {
             try
             {
-                await _dbContext.SaveChangesAsync();
+                await dbContext.SaveChangesAsync();
             }
             catch (Exception dbEx)
             {
-                _logger.LogError(dbEx, "{UnitOfWork} Save function error", typeof(UnitOfWork));
+                logger.LogError(dbEx, "{UnitOfWork} Save function error", typeof(UnitOfWork));
             }
         }
 
         protected virtual void Dispose(bool disposing)
         {
-            if (!_disposed)
+            if (!disposed)
                 if (disposing)
-                    _dbContext.Dispose();
-            _disposed = true;
+                    dbContext.Dispose();
+            disposed = true;
         }
     }
 }

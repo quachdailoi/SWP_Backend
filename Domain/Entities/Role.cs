@@ -1,6 +1,6 @@
-﻿using SECapstoneEvaluation.Domain.Base;
+﻿using Domain.Base;
 
-namespace SECapstoneEvaluation.Domain.Entities
+namespace Domain.Entities
 {
     public class Role : BaseEntity
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SECapstoneEvaluation.Domain.Base;
+using Domain.Base;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.EntityConfigurations
+namespace Infrastructure.Data.EntityConfigurations
 {
     public class BaseEntityConfiguration<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : BaseEntity
     {

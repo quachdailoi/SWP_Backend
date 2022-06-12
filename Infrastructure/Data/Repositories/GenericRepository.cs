@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using SECapstoneEvaluation.Domain.Interfaces.Entities;
-using SECapstoneEvaluation.Domain.Interfaces.Repositories;
+using Domain.Interfaces.Entities;
+using Domain.Interfaces.Repositories;
 using System.Linq.Expressions;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
+namespace Infrastructure.Data.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
@@ -21,7 +21,7 @@ namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
             this._logger = logger;
         }
 
-        public async Task Add(T entity)
+        public async Task<T> Add(T entity)
         {
             try
             {
@@ -32,11 +32,13 @@ namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
                 await DbSet.AddAsync(entity);
 
                 await this._dbContext.SaveChangesAsync();
+                
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "{Repo} Add function error", typeof(T));
             }
+            return entity;
         }
 
         public IQueryable<T> List(Expression<Func<T, bool>>? expression = null)
@@ -71,7 +73,7 @@ namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
                 _logger.LogError(ex, "{Repo} Remove function error", typeof(T));
                 return false;
             }
-            await _dbContext.SaveChangesAsync();
+            //await _dbContext.SaveChangesAsync();
             return true;
         }
 
@@ -84,7 +86,7 @@ namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
                     ((IBaseEntity)entity).UpdatedAt = DateTime.UtcNow;
                 }
                 DbSet.Update(entity);
-                await _dbContext.SaveChangesAsync();
+                //await _dbContext.SaveChangesAsync();
             }
             catch (Exception ex)
             {

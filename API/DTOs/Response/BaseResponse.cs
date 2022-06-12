@@ -10,11 +10,11 @@
         {
         }
 
-        public BaseResponse(int statusCode, string message, object? data = null)
+        public BaseResponse(int StatusCode, string Message, object? Data = null)
         {
-            StatusCode = statusCode;
-            Message = message;
-            Data = data;
+            this.StatusCode = StatusCode;
+            this.Message = Message;
+            this.Data = Data;
         }
 
         public BaseResponse SetStatusCode(int code) 

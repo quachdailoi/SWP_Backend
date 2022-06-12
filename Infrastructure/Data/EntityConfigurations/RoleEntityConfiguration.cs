@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SECapstoneEvaluation.Domain.Entities;
+using Domain.Entities;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.EntityConfigurations
+namespace Infrastructure.Data.EntityConfigurations
 {
     public class RoleEntityConfiguration : BaseEntityConfiguration<Role>
     {

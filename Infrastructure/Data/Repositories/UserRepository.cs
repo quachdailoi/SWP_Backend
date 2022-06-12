@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using SECapstoneEvaluation.Domain.Entities;
-using SECapstoneEvaluation.Domain.Interfaces.Repositories;
+using Domain.Entities;
+using Domain.Interfaces.Repositories;
 
-namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
+namespace Infrastructure.Data.Repositories
 {
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
@@ -12,7 +12,14 @@ namespace SECapstoneEvaluation.Infrastructure.Data.Repositories
 
         public IQueryable<User> GetUserByEmail(string email)
         {
-            return this.DbSet.Where(x => x.Email == email);
+            return this.List(x => x.Email == email);
         }
+
+        public IQueryable<User> GetUserByCode(string code)
+        {
+            return this.List(x => x.Code == code);
+        }
+
+
     }
 }

@@ -1,10 +1,10 @@
 ﻿using Microsoft.IdentityModel.Tokens;
-using SECapstoneEvaluation.APIs.DTOs;
+using API.DTOs;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace SECapstoneEvaluation.APIs.JwtFeatures
+namespace API.JwtFeatures
 {
     public class JwtHandler
     {
@@ -23,13 +23,12 @@ namespace SECapstoneEvaluation.APIs.JwtFeatures
 			return new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha512);
 		}
 
-		private List<Claim> GetClaims(UserRoleDto userRoleDto)
+		private List<Claim> GetClaims(UserRolesDto userRoleDto)
 		{
 			var claims = new List<Claim>
 			{
 				new Claim(ClaimTypes.Email, userRoleDto.Email),
 				new Claim(ClaimTypes.Name, userRoleDto.Name),
-				new Claim(ClaimTypes.Role, userRoleDto.RoleName),
 				new Claim(ClaimTypes.MobilePhone, userRoleDto.Phone),
 				new Claim(ClaimTypes.DateOfBirth, userRoleDto.Birthday.ToString()),
 			};
@@ -51,7 +50,7 @@ namespace SECapstoneEvaluation.APIs.JwtFeatures
 			return tokenOptions;
 		}
 
-		public string GenerateToken(UserRoleDto userRoleDto)
+		public string GenerateToken(UserRolesDto userRoleDto)
 		{
 			var signingCredentials = GetSigningCredentials();
 			var claims = GetClaims(userRoleDto);

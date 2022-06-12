@@ -1,4 +1,4 @@
-﻿namespace SECapstoneEvaluation.APIs.DTOs
+﻿namespace API.DTOs
 {
     public class LoginCampusViewModel
     {

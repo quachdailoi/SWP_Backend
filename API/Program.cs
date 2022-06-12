@@ -5,13 +5,13 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 using Google.Apis.Auth.OAuth2;
 using FirebaseAdmin;
-using SECapstoneEvaluation.Infrastructure.Data;
-using SECapstoneEvaluation.Domain.Interfaces.Repositories;
-using SECapstoneEvaluation.Infrastructure.Data.Repositories;
-using SECapstoneEvaluation.APIs.Services.Constracts;
-using SECapstoneEvaluation.APIs.Services;
-using SECapstoneEvaluation.Domain.Interfaces.UnitOfWork;
-using SECapstoneEvaluation.Infrastructure.Data.UnitOfWork;
+using Infrastructure.Data;
+using Domain.Interfaces.Repositories;
+using Infrastructure.Data.Repositories;
+using API.Services.Constracts;
+using API.Services;
+using Domain.Interfaces.UnitOfWork;
+using Infrastructure.Data.UnitOfWork;
 using Serilog;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
@@ -143,11 +143,19 @@ services.AddScoped<IUserRepository, UserRepository>();
 services.AddScoped<IRoleUserRepository, RoleUserRepository>();
 services.AddScoped<IRoleRepository, RoleRepository>();
 services.AddScoped<ICampusRepository, CampusRepository>();
+services.AddScoped<ITopicRepository, TopicRepository>();
+services.AddScoped<ISemesterRepository, SemesterRepository>();
+services.AddScoped<ICapstoneTeamRepository, CapstoneTeamRepository>();
 #endregion
 
 #region IOC for Services
 services.AddTransient<IUserService, UserService>();
 services.AddTransient<ICampusService, CampusService>();
+services.AddTransient<ICapstoneTeamService, CapstoneTeamService>();
+services.AddTransient<IRoleService, RoleService>();
+services.AddTransient<IRoleUserService, RoleUserService>();
+services.AddTransient<ISemesterService, SemesterService>();
+services.AddTransient<ITopicService, TopicService>();
 #endregion
 
 #region IOC for UnitOfWork

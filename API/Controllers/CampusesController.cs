@@ -1,12 +1,6 @@
 ﻿using API.DTOs.Response;
-using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
-using SECapstoneEvaluation.APIs.Services.Constracts;
-using SECapstoneEvaluation.Domain.Entities;
-using System.Data;
-using System.Globalization;
-using System.Net;
-using System.Text;
+using API.Services.Constracts;
 
 namespace SECapstoneEvaluation.APIs.Controllers
 {
@@ -14,17 +8,17 @@ namespace SECapstoneEvaluation.APIs.Controllers
     [ApiController]
     public class CampusesController : ControllerBase
     {
-        private readonly ICampusService _campusService;
+        private readonly ICampusService campusService;
 
         public CampusesController(ICampusService campusService)
         {
-            _campusService = campusService;
+            this.campusService = campusService;
         }
 
         [HttpGet("login")]
         public async Task<IActionResult> Login()
         {
-            var campuses = await _campusService.GetAllCampusesForLogin();
+            var campuses = await campusService.GetAllCampusesForLogin();
 
             BaseResponse response = new();
 
@@ -35,42 +29,13 @@ namespace SECapstoneEvaluation.APIs.Controllers
                 return NotFound(response);
             }
 
-            response.SetStatusCode(StatusCodes.Status200OK)
-                .SetMessage("Get campuses successfully.")
-                .SetData(campuses);
+            response = new(
+                Message: "Get campuses successfully.",
+                StatusCode: StatusCodes.Status200OK,
+                Data: campuses
+            );
 
             return Ok(response);
         }
-
-        //[HttpPost]
-        //public async Task<IActionResult> CreateCampuses([FromForm] IFormFile file)
-        //{
-        //    Stream stream = file.OpenReadStream();
-
-        //    if (file == null || stream == null)
-        //    {
-        //        return BadRequest("Seleted file is empty.");
-        //    }
-
-        //    bool isValidFileExtension = file.FileName.EndsWith(".xls") || file.FileName.EndsWith(".xlsx");
-        //    if (!isValidFileExtension)
-        //    {
-        //        return BadRequest("The file format is not supported.");
-        //    }
-        //    FileStream fileStream = stream as FileStream;
-
-        //    IExcelDataReader reader = ExcelReaderFactory.CreateBinaryReader(fileStream);
-
-        //    DataSet dsExcelRecords = reader.AsDataSet();
-
-        //    reader.Close();
-
-        //    if (dsExcelRecords == null || dsExcelRecords.Tables.Count <= 0)
-        //    {
-
-        //    }
-
-        //    return Ok("ok");
-        //}
     }
 }

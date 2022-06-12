@@ -1,8 +1,9 @@
-﻿using SECapstoneEvaluation.Domain.Entities;
+﻿using Domain.Entities;
 
-namespace SECapstoneEvaluation.Domain.Interfaces.Repositories
+namespace Domain.Interfaces.Repositories
 {
     public interface IRoleRepository : IGenericRepository<Role>
     {
+        Task<Role?> GetRoleByName(string roleName);
     }
 }
