@@ -10,8 +10,7 @@
         private int Skip;
 
         public void GenerateSkipAndTotalPage(int totalItemsSize)
-        {
-            
+        {            
             TotalPages = (int)Math.Ceiling(totalItemsSize / (double) PageSize);
             Skip = (PageIndex - 1) * PageSize;
 

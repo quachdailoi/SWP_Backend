@@ -2216,10 +2216,10 @@ namespace Infrastructure.Migrations
                             Id = 1,
                             Code = "2022FALL",
                             CreatedBy = "",
-                            EndAt = new DateTime(2022, 10, 10, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(9561),
+                            EndAt = new DateTime(2022, 10, 10, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(3598),
                             IsDeleted = false,
                             Name = "Fall semester of 2022",
-                            StartAt = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(9558),
+                            StartAt = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(3598),
                             UpdatedBy = ""
                         });
                 });
@@ -4364,7 +4364,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 1,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1135),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8511),
                             CampusId = 2,
                             Code = "SE140970",
                             CreatedBy = "",
@@ -4380,7 +4380,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 2,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1158),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8522),
                             CampusId = 2,
                             Code = "SE140977",
                             CreatedBy = "",
@@ -4396,7 +4396,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 3,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1171),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8529),
                             CampusId = 2,
                             Code = "SE140971",
                             CreatedBy = "",
@@ -4412,7 +4412,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 4,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1182),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8535),
                             CampusId = 2,
                             Code = "SE140920",
                             CreatedBy = "",
@@ -4428,7 +4428,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 5,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1191),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8542),
                             CampusId = 2,
                             Code = "HuongNTC2",
                             CreatedBy = "",
@@ -4444,7 +4444,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 6,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1204),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8551),
                             CampusId = 2,
                             Code = "PhuongLHK",
                             CreatedBy = "",
@@ -4460,7 +4460,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 7,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1260),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8583),
                             CampusId = 2,
                             Code = "SE140500",
                             CreatedBy = "",
@@ -4476,7 +4476,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 8,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1282),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8599),
                             CampusId = 2,
                             Code = "SE140501",
                             CreatedBy = "",
@@ -4492,7 +4492,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 9,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1296),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8608),
                             CampusId = 2,
                             Code = "SE140502",
                             CreatedBy = "",
@@ -4508,7 +4508,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 10,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1313),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8618),
                             CampusId = 2,
                             Code = "SE140503",
                             CreatedBy = "",
@@ -4524,7 +4524,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 11,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1328),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8627),
                             CampusId = 2,
                             Code = "SE140504",
                             CreatedBy = "",
@@ -4540,7 +4540,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 12,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1342),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8636),
                             CampusId = 2,
                             Code = "SE140505",
                             CreatedBy = "",
@@ -4556,7 +4556,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 13,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1357),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8644),
                             CampusId = 2,
                             Code = "SE140506",
                             CreatedBy = "",
@@ -4572,7 +4572,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 14,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1416),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8653),
                             CampusId = 2,
                             Code = "SE140507",
                             CreatedBy = "",
@@ -4588,7 +4588,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 15,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1432),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8661),
                             CampusId = 2,
                             Code = "SE140508",
                             CreatedBy = "",
@@ -4604,7 +4604,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 16,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1447),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8670),
                             CampusId = 2,
                             Code = "SE140509",
                             CreatedBy = "",
@@ -4620,7 +4620,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 17,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1462),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8708),
                             CampusId = 2,
                             Code = "SE140510",
                             CreatedBy = "",
@@ -4636,7 +4636,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 18,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1480),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8719),
                             CampusId = 2,
                             Code = "SE140511",
                             CreatedBy = "",
@@ -4652,7 +4652,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 19,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1495),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8728),
                             CampusId = 2,
                             Code = "SE140512",
                             CreatedBy = "",
@@ -4668,7 +4668,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 20,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1511),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8737),
                             CampusId = 2,
                             Code = "SE140513",
                             CreatedBy = "",
@@ -4684,7 +4684,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 21,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1526),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8746),
                             CampusId = 2,
                             Code = "SE140514",
                             CreatedBy = "",
@@ -4700,7 +4700,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 22,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1542),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8754),
                             CampusId = 2,
                             Code = "SE140515",
                             CreatedBy = "",
@@ -4716,7 +4716,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 23,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1557),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8763),
                             CampusId = 2,
                             Code = "SE140516",
                             CreatedBy = "",
@@ -4732,7 +4732,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 24,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1571),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8772),
                             CampusId = 2,
                             Code = "SE140517",
                             CreatedBy = "",
@@ -4748,7 +4748,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 25,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1585),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8780),
                             CampusId = 2,
                             Code = "SE140518",
                             CreatedBy = "",
@@ -4764,7 +4764,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 26,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1598),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8789),
                             CampusId = 2,
                             Code = "SE140519",
                             CreatedBy = "",
@@ -4780,7 +4780,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 27,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1613),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8797),
                             CampusId = 2,
                             Code = "SE140520",
                             CreatedBy = "",
@@ -4796,7 +4796,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 28,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1669),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8806),
                             CampusId = 2,
                             Code = "SE140521",
                             CreatedBy = "",
@@ -4812,7 +4812,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 29,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1687),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8815),
                             CampusId = 2,
                             Code = "SE140522",
                             CreatedBy = "",
@@ -4828,7 +4828,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 30,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1701),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8824),
                             CampusId = 2,
                             Code = "SE140523",
                             CreatedBy = "",
@@ -4844,7 +4844,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 31,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1716),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8857),
                             CampusId = 2,
                             Code = "SE140524",
                             CreatedBy = "",
@@ -4860,7 +4860,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 32,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1732),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8867),
                             CampusId = 2,
                             Code = "SE140525",
                             CreatedBy = "",
@@ -4876,7 +4876,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 33,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1746),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8876),
                             CampusId = 2,
                             Code = "SE140526",
                             CreatedBy = "",
@@ -4892,7 +4892,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 34,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1762),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8885),
                             CampusId = 2,
                             Code = "SE140527",
                             CreatedBy = "",
@@ -4908,7 +4908,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 35,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1777),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8894),
                             CampusId = 2,
                             Code = "SE140528",
                             CreatedBy = "",
@@ -4924,7 +4924,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 36,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1795),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8902),
                             CampusId = 2,
                             Code = "SE140529",
                             CreatedBy = "",
@@ -4940,7 +4940,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 37,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1811),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8911),
                             CampusId = 2,
                             Code = "SE140530",
                             CreatedBy = "",
@@ -4956,7 +4956,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 38,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1825),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8920),
                             CampusId = 2,
                             Code = "SE140531",
                             CreatedBy = "",
@@ -4972,7 +4972,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 39,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1841),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8929),
                             CampusId = 2,
                             Code = "SE140532",
                             CreatedBy = "",
@@ -4988,7 +4988,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 40,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1856),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8938),
                             CampusId = 2,
                             Code = "SE140533",
                             CreatedBy = "",
@@ -5004,7 +5004,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 41,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1870),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8947),
                             CampusId = 2,
                             Code = "SE140534",
                             CreatedBy = "",
@@ -5020,7 +5020,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 42,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1951),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8956),
                             CampusId = 2,
                             Code = "SE140535",
                             CreatedBy = "",
@@ -5036,7 +5036,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 43,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1970),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8965),
                             CampusId = 2,
                             Code = "SE140536",
                             CreatedBy = "",
@@ -5052,7 +5052,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 44,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(1986),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(8974),
                             CampusId = 2,
                             Code = "SE140537",
                             CreatedBy = "",
@@ -5068,7 +5068,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 45,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2001),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9008),
                             CampusId = 2,
                             Code = "SE140538",
                             CreatedBy = "",
@@ -5084,7 +5084,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 46,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2014),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9018),
                             CampusId = 2,
                             Code = "SE140539",
                             CreatedBy = "",
@@ -5100,7 +5100,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 47,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2028),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9027),
                             CampusId = 2,
                             Code = "SE140540",
                             CreatedBy = "",
@@ -5116,7 +5116,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 48,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2042),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9036),
                             CampusId = 2,
                             Code = "SE140541",
                             CreatedBy = "",
@@ -5132,7 +5132,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 49,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2055),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9045),
                             CampusId = 2,
                             Code = "SE140542",
                             CreatedBy = "",
@@ -5148,7 +5148,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 50,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2070),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9053),
                             CampusId = 2,
                             Code = "SE140543",
                             CreatedBy = "",
@@ -5164,7 +5164,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 51,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2083),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9062),
                             CampusId = 2,
                             Code = "SE140544",
                             CreatedBy = "",
@@ -5180,7 +5180,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 52,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2097),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9070),
                             CampusId = 2,
                             Code = "SE140545",
                             CreatedBy = "",
@@ -5196,7 +5196,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 53,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2110),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9079),
                             CampusId = 2,
                             Code = "SE140546",
                             CreatedBy = "",
@@ -5212,7 +5212,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 54,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2123),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9088),
                             CampusId = 2,
                             Code = "SE140547",
                             CreatedBy = "",
@@ -5228,7 +5228,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 55,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2136),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9097),
                             CampusId = 2,
                             Code = "SE140548",
                             CreatedBy = "",
@@ -5244,7 +5244,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 56,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2149),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9106),
                             CampusId = 2,
                             Code = "SE140549",
                             CreatedBy = "",
@@ -5260,7 +5260,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 57,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2199),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9115),
                             CampusId = 2,
                             Code = "SE140550",
                             CreatedBy = "",
@@ -5276,7 +5276,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 58,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2217),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9123),
                             CampusId = 2,
                             Code = "SE140551",
                             CreatedBy = "",
@@ -5292,7 +5292,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 59,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2231),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9132),
                             CampusId = 2,
                             Code = "SE140552",
                             CreatedBy = "",
@@ -5308,7 +5308,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 60,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2250),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9164),
                             CampusId = 2,
                             Code = "SE140553",
                             CreatedBy = "",
@@ -5324,7 +5324,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 61,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2271),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9173),
                             CampusId = 2,
                             Code = "SE140554",
                             CreatedBy = "",
@@ -5340,7 +5340,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 62,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2293),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9182),
                             CampusId = 2,
                             Code = "SE140555",
                             CreatedBy = "",
@@ -5356,7 +5356,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 63,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2308),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9191),
                             CampusId = 2,
                             Code = "SE140556",
                             CreatedBy = "",
@@ -5372,7 +5372,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 64,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2323),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9199),
                             CampusId = 2,
                             Code = "SE140557",
                             CreatedBy = "",
@@ -5388,7 +5388,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 65,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2338),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9208),
                             CampusId = 2,
                             Code = "SE140558",
                             CreatedBy = "",
@@ -5404,7 +5404,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 66,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2354),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9218),
                             CampusId = 2,
                             Code = "SE140559",
                             CreatedBy = "",
@@ -5420,7 +5420,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 67,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2369),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9227),
                             CampusId = 2,
                             Code = "SE140560",
                             CreatedBy = "",
@@ -5436,7 +5436,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 68,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2384),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9235),
                             CampusId = 2,
                             Code = "SE140561",
                             CreatedBy = "",
@@ -5452,7 +5452,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 69,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2399),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9244),
                             CampusId = 2,
                             Code = "SE140562",
                             CreatedBy = "",
@@ -5468,7 +5468,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 70,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2446),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9252),
                             CampusId = 2,
                             Code = "SE140563",
                             CreatedBy = "",
@@ -5484,7 +5484,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 71,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2462),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9261),
                             CampusId = 2,
                             Code = "SE140564",
                             CreatedBy = "",
@@ -5500,7 +5500,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 72,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2475),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9269),
                             CampusId = 2,
                             Code = "SE140565",
                             CreatedBy = "",
@@ -5516,7 +5516,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 73,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2489),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9304),
                             CampusId = 2,
                             Code = "SE140566",
                             CreatedBy = "",
@@ -5532,7 +5532,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 74,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2502),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9314),
                             CampusId = 2,
                             Code = "SE140567",
                             CreatedBy = "",
@@ -5548,7 +5548,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 75,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2516),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9322),
                             CampusId = 2,
                             Code = "SE140568",
                             CreatedBy = "",
@@ -5564,7 +5564,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 76,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2529),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9331),
                             CampusId = 2,
                             Code = "SE140569",
                             CreatedBy = "",
@@ -5580,7 +5580,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 77,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2543),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9340),
                             CampusId = 2,
                             Code = "SE140570",
                             CreatedBy = "",
@@ -5596,7 +5596,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 78,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2557),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9349),
                             CampusId = 2,
                             Code = "SE140571",
                             CreatedBy = "",
@@ -5612,7 +5612,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 79,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2572),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9357),
                             CampusId = 2,
                             Code = "SE140572",
                             CreatedBy = "",
@@ -5628,7 +5628,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 80,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2586),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9366),
                             CampusId = 2,
                             Code = "SE140573",
                             CreatedBy = "",
@@ -5644,7 +5644,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 81,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2602),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9374),
                             CampusId = 2,
                             Code = "SE140574",
                             CreatedBy = "",
@@ -5660,7 +5660,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 82,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2617),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9383),
                             CampusId = 2,
                             Code = "SE140575",
                             CreatedBy = "",
@@ -5676,7 +5676,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 83,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2631),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9391),
                             CampusId = 2,
                             Code = "SE140576",
                             CreatedBy = "",
@@ -5692,7 +5692,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 84,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2647),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9400),
                             CampusId = 2,
                             Code = "SE140577",
                             CreatedBy = "",
@@ -5708,7 +5708,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 85,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2698),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9409),
                             CampusId = 2,
                             Code = "SE140578",
                             CreatedBy = "",
@@ -5724,7 +5724,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 86,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2716),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9417),
                             CampusId = 2,
                             Code = "SE140579",
                             CreatedBy = "",
@@ -5740,7 +5740,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 87,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2732),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9426),
                             CampusId = 2,
                             Code = "SE140580",
                             CreatedBy = "",
@@ -5756,7 +5756,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 88,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2747),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9460),
                             CampusId = 2,
                             Code = "SE140581",
                             CreatedBy = "",
@@ -5772,7 +5772,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 89,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2763),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9471),
                             CampusId = 2,
                             Code = "SE140582",
                             CreatedBy = "",
@@ -5788,7 +5788,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 90,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2778),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9479),
                             CampusId = 2,
                             Code = "SE140583",
                             CreatedBy = "",
@@ -5804,7 +5804,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 91,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2794),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9488),
                             CampusId = 2,
                             Code = "SE140584",
                             CreatedBy = "",
@@ -5820,7 +5820,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 92,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2811),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9496),
                             CampusId = 2,
                             Code = "SE140585",
                             CreatedBy = "",
@@ -5836,7 +5836,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 93,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2827),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9505),
                             CampusId = 2,
                             Code = "SE140586",
                             CreatedBy = "",
@@ -5852,7 +5852,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 94,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2842),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9513),
                             CampusId = 2,
                             Code = "SE140587",
                             CreatedBy = "",
@@ -5868,7 +5868,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 95,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2857),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9522),
                             CampusId = 2,
                             Code = "SE140588",
                             CreatedBy = "",
@@ -5884,7 +5884,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 96,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2872),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9531),
                             CampusId = 2,
                             Code = "SE140589",
                             CreatedBy = "",
@@ -5900,7 +5900,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 97,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2887),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9539),
                             CampusId = 2,
                             Code = "SE140590",
                             CreatedBy = "",
@@ -5916,7 +5916,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 98,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2903),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9548),
                             CampusId = 2,
                             Code = "SE140591",
                             CreatedBy = "",
@@ -5932,7 +5932,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 99,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2919),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9557),
                             CampusId = 2,
                             Code = "SE140592",
                             CreatedBy = "",
@@ -5948,7 +5948,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 100,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2968),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9565),
                             CampusId = 2,
                             Code = "SE140593",
                             CreatedBy = "",
@@ -5964,7 +5964,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 101,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(2988),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9573),
                             CampusId = 2,
                             Code = "SE140594",
                             CreatedBy = "",
@@ -5980,7 +5980,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 102,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3003),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9582),
                             CampusId = 2,
                             Code = "SE140595",
                             CreatedBy = "",
@@ -5996,7 +5996,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 103,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3018),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9629),
                             CampusId = 2,
                             Code = "SE140596",
                             CreatedBy = "",
@@ -6012,7 +6012,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 104,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3036),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9640),
                             CampusId = 2,
                             Code = "SE140597",
                             CreatedBy = "",
@@ -6028,7 +6028,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 105,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3052),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9648),
                             CampusId = 2,
                             Code = "SE140598",
                             CreatedBy = "",
@@ -6044,7 +6044,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 106,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3068),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9657),
                             CampusId = 2,
                             Code = "SE140599",
                             CreatedBy = "",
@@ -6060,7 +6060,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 107,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3085),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9666),
                             CampusId = 2,
                             Code = "SE140600",
                             CreatedBy = "",
@@ -6076,7 +6076,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 108,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3101),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9675),
                             CampusId = 2,
                             Code = "SE140601",
                             CreatedBy = "",
@@ -6092,7 +6092,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 109,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3116),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9683),
                             CampusId = 2,
                             Code = "SE140602",
                             CreatedBy = "",
@@ -6108,7 +6108,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 110,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3134),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9692),
                             CampusId = 2,
                             Code = "SE140603",
                             CreatedBy = "",
@@ -6124,7 +6124,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 111,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3149),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9701),
                             CampusId = 2,
                             Code = "SE140604",
                             CreatedBy = "",
@@ -6140,7 +6140,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 112,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3164),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9709),
                             CampusId = 2,
                             Code = "SE140605",
                             CreatedBy = "",
@@ -6156,7 +6156,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 113,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3180),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9718),
                             CampusId = 2,
                             Code = "SE140606",
                             CreatedBy = "",
@@ -6172,7 +6172,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 114,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3195),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9727),
                             CampusId = 2,
                             Code = "SE140607",
                             CreatedBy = "",
@@ -6188,7 +6188,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 115,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3246),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9735),
                             CampusId = 2,
                             Code = "SE140608",
                             CreatedBy = "",
@@ -6204,7 +6204,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 116,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3264),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9744),
                             CampusId = 2,
                             Code = "SE140609",
                             CreatedBy = "",
@@ -6220,7 +6220,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 117,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3280),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9752),
                             CampusId = 2,
                             Code = "SE140610",
                             CreatedBy = "",
@@ -6236,7 +6236,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 118,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3295),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9785),
                             CampusId = 2,
                             Code = "SE140611",
                             CreatedBy = "",
@@ -6252,7 +6252,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 119,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3311),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9794),
                             CampusId = 2,
                             Code = "SE140612",
                             CreatedBy = "",
@@ -6268,7 +6268,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 120,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3326),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9803),
                             CampusId = 2,
                             Code = "SE140613",
                             CreatedBy = "",
@@ -6284,7 +6284,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 121,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3342),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9812),
                             CampusId = 2,
                             Code = "SE140614",
                             CreatedBy = "",
@@ -6300,7 +6300,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 122,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3357),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9820),
                             CampusId = 2,
                             Code = "SE140615",
                             CreatedBy = "",
@@ -6316,7 +6316,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 123,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3375),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9829),
                             CampusId = 2,
                             Code = "SE140616",
                             CreatedBy = "",
@@ -6332,7 +6332,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 124,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3390),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9837),
                             CampusId = 2,
                             Code = "SE140617",
                             CreatedBy = "",
@@ -6348,7 +6348,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 125,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3405),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9846),
                             CampusId = 2,
                             Code = "SE140618",
                             CreatedBy = "",
@@ -6364,7 +6364,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 126,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3420),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9854),
                             CampusId = 2,
                             Code = "SE140619",
                             CreatedBy = "",
@@ -6380,7 +6380,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 127,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3435),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9863),
                             CampusId = 2,
                             Code = "SE140620",
                             CreatedBy = "",
@@ -6396,7 +6396,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 128,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3449),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9871),
                             CampusId = 2,
                             Code = "SE140621",
                             CreatedBy = "",
@@ -6412,7 +6412,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 129,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3464),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9880),
                             CampusId = 2,
                             Code = "SE140622",
                             CreatedBy = "",
@@ -6428,7 +6428,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 130,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3530),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9916),
                             CampusId = 2,
                             Code = "SE140623",
                             CreatedBy = "",
@@ -6444,7 +6444,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 131,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3547),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9925),
                             CampusId = 2,
                             Code = "SE140624",
                             CreatedBy = "",
@@ -6460,7 +6460,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 132,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3563),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9934),
                             CampusId = 2,
                             Code = "SE140625",
                             CreatedBy = "",
@@ -6476,7 +6476,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 133,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3577),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9943),
                             CampusId = 2,
                             Code = "SE140626",
                             CreatedBy = "",
@@ -6492,7 +6492,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 134,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3591),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9951),
                             CampusId = 2,
                             Code = "SE140627",
                             CreatedBy = "",
@@ -6508,7 +6508,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 135,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3607),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9960),
                             CampusId = 2,
                             Code = "SE140628",
                             CreatedBy = "",
@@ -6524,7 +6524,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 136,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3622),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9968),
                             CampusId = 2,
                             Code = "SE140629",
                             CreatedBy = "",
@@ -6540,7 +6540,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 137,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3636),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9977),
                             CampusId = 2,
                             Code = "SE140630",
                             CreatedBy = "",
@@ -6556,7 +6556,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 138,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3650),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9986),
                             CampusId = 2,
                             Code = "SE140631",
                             CreatedBy = "",
@@ -6572,7 +6572,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 139,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3665),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 419, DateTimeKind.Utc).AddTicks(9994),
                             CampusId = 2,
                             Code = "SE140632",
                             CreatedBy = "",
@@ -6588,7 +6588,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 140,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3681),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(3),
                             CampusId = 2,
                             Code = "SE140633",
                             CreatedBy = "",
@@ -6604,7 +6604,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 141,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3732),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(12),
                             CampusId = 2,
                             Code = "SE140634",
                             CreatedBy = "",
@@ -6620,7 +6620,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 142,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3752),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(21),
                             CampusId = 2,
                             Code = "SE140635",
                             CreatedBy = "",
@@ -6636,7 +6636,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 143,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3766),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(30),
                             CampusId = 2,
                             Code = "SE140636",
                             CreatedBy = "",
@@ -6652,7 +6652,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 144,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3780),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(63),
                             CampusId = 2,
                             Code = "SE140637",
                             CreatedBy = "",
@@ -6668,7 +6668,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 145,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3796),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(73),
                             CampusId = 2,
                             Code = "SE140638",
                             CreatedBy = "",
@@ -6684,7 +6684,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 146,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3812),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(82),
                             CampusId = 2,
                             Code = "SE140639",
                             CreatedBy = "",
@@ -6700,7 +6700,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 147,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3829),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(91),
                             CampusId = 2,
                             Code = "SE140640",
                             CreatedBy = "",
@@ -6716,7 +6716,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 148,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3845),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(99),
                             CampusId = 2,
                             Code = "SE140641",
                             CreatedBy = "",
@@ -6732,7 +6732,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 149,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3861),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(108),
                             CampusId = 2,
                             Code = "SE140642",
                             CreatedBy = "",
@@ -6748,7 +6748,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 150,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3875),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(117),
                             CampusId = 2,
                             Code = "SE140643",
                             CreatedBy = "",
@@ -6764,7 +6764,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 151,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3891),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(126),
                             CampusId = 2,
                             Code = "SE140644",
                             CreatedBy = "",
@@ -6780,7 +6780,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 152,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3907),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(135),
                             CampusId = 2,
                             Code = "SE140645",
                             CreatedBy = "",
@@ -6796,7 +6796,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 153,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3924),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(143),
                             CampusId = 2,
                             Code = "SE140646",
                             CreatedBy = "",
@@ -6812,7 +6812,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 154,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3940),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(152),
                             CampusId = 2,
                             Code = "SE140647",
                             CreatedBy = "",
@@ -6828,7 +6828,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 155,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3956),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(160),
                             CampusId = 2,
                             Code = "SE140648",
                             CreatedBy = "",
@@ -6844,7 +6844,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 156,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(3970),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(169),
                             CampusId = 2,
                             Code = "SE140649",
                             CreatedBy = "",
@@ -6860,7 +6860,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 157,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4045),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(177),
                             CampusId = 2,
                             Code = "SE140650",
                             CreatedBy = "",
@@ -6876,7 +6876,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 158,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4061),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(186),
                             CampusId = 2,
                             Code = "SE140651",
                             CreatedBy = "",
@@ -6892,7 +6892,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 159,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4077),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(219),
                             CampusId = 2,
                             Code = "SE140652",
                             CreatedBy = "",
@@ -6908,7 +6908,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 160,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4093),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(230),
                             CampusId = 2,
                             Code = "SE140653",
                             CreatedBy = "",
@@ -6924,7 +6924,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 161,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4108),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(238),
                             CampusId = 2,
                             Code = "SE140654",
                             CreatedBy = "",
@@ -6940,7 +6940,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 162,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4125),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(247),
                             CampusId = 2,
                             Code = "SE140655",
                             CreatedBy = "",
@@ -6956,7 +6956,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 163,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4140),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(255),
                             CampusId = 2,
                             Code = "SE140656",
                             CreatedBy = "",
@@ -6972,7 +6972,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 164,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4154),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(264),
                             CampusId = 2,
                             Code = "SE140657",
                             CreatedBy = "",
@@ -6988,7 +6988,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 165,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4169),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(273),
                             CampusId = 2,
                             Code = "SE140658",
                             CreatedBy = "",
@@ -7004,7 +7004,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 166,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4186),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(282),
                             CampusId = 2,
                             Code = "SE140659",
                             CreatedBy = "",
@@ -7020,7 +7020,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 167,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4200),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(290),
                             CampusId = 2,
                             Code = "SE140660",
                             CreatedBy = "",
@@ -7036,7 +7036,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 168,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4216),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(299),
                             CampusId = 2,
                             Code = "SE140661",
                             CreatedBy = "",
@@ -7052,7 +7052,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 169,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4231),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(308),
                             CampusId = 2,
                             Code = "SE140662",
                             CreatedBy = "",
@@ -7068,7 +7068,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 170,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4247),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(316),
                             CampusId = 2,
                             Code = "SE140663",
                             CreatedBy = "",
@@ -7084,7 +7084,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 171,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4261),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(325),
                             CampusId = 2,
                             Code = "SE140664",
                             CreatedBy = "",
@@ -7100,7 +7100,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 172,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4316),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(334),
                             CampusId = 2,
                             Code = "SE140665",
                             CreatedBy = "",
@@ -7116,7 +7116,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 173,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4333),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(342),
                             CampusId = 2,
                             Code = "SE140666",
                             CreatedBy = "",
@@ -7132,7 +7132,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 174,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4348),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(375),
                             CampusId = 2,
                             Code = "SE140667",
                             CreatedBy = "",
@@ -7148,7 +7148,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 175,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4363),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(385),
                             CampusId = 2,
                             Code = "SE140668",
                             CreatedBy = "",
@@ -7164,7 +7164,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 176,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4378),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(394),
                             CampusId = 2,
                             Code = "SE140669",
                             CreatedBy = "",
@@ -7180,7 +7180,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 177,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4393),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(402),
                             CampusId = 2,
                             Code = "SE140670",
                             CreatedBy = "",
@@ -7196,7 +7196,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 178,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4409),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(411),
                             CampusId = 2,
                             Code = "SE140671",
                             CreatedBy = "",
@@ -7212,7 +7212,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 179,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4424),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(420),
                             CampusId = 2,
                             Code = "SE140672",
                             CreatedBy = "",
@@ -7228,7 +7228,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 180,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4438),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(428),
                             CampusId = 2,
                             Code = "SE140673",
                             CreatedBy = "",
@@ -7244,7 +7244,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 181,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4454),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(437),
                             CampusId = 2,
                             Code = "SE140674",
                             CreatedBy = "",
@@ -7260,7 +7260,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 182,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4468),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(446),
                             CampusId = 2,
                             Code = "SE140675",
                             CreatedBy = "",
@@ -7276,7 +7276,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 183,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4483),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(455),
                             CampusId = 2,
                             Code = "SE140676",
                             CreatedBy = "",
@@ -7292,7 +7292,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 184,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4498),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(463),
                             CampusId = 2,
                             Code = "SE140677",
                             CreatedBy = "",
@@ -7308,7 +7308,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 185,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4513),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(472),
                             CampusId = 2,
                             Code = "SE140678",
                             CreatedBy = "",
@@ -7324,7 +7324,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 186,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4528),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(480),
                             CampusId = 2,
                             Code = "SE140679",
                             CreatedBy = "",
@@ -7340,7 +7340,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 187,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4582),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(489),
                             CampusId = 2,
                             Code = "SE140680",
                             CreatedBy = "",
@@ -7356,7 +7356,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 188,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4597),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(498),
                             CampusId = 2,
                             Code = "SE140681",
                             CreatedBy = "",
@@ -7372,7 +7372,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 189,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4612),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(531),
                             CampusId = 2,
                             Code = "SE140682",
                             CreatedBy = "",
@@ -7388,7 +7388,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 190,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4629),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(541),
                             CampusId = 2,
                             Code = "SE140683",
                             CreatedBy = "",
@@ -7404,7 +7404,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 191,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4645),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(551),
                             CampusId = 2,
                             Code = "SE140684",
                             CreatedBy = "",
@@ -7420,7 +7420,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 192,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4660),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(560),
                             CampusId = 2,
                             Code = "SE140685",
                             CreatedBy = "",
@@ -7436,7 +7436,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 193,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4677),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(569),
                             CampusId = 2,
                             Code = "SE140686",
                             CreatedBy = "",
@@ -7452,7 +7452,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 194,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4692),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(577),
                             CampusId = 2,
                             Code = "SE140687",
                             CreatedBy = "",
@@ -7468,7 +7468,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 195,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4706),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(586),
                             CampusId = 2,
                             Code = "SE140688",
                             CreatedBy = "",
@@ -7484,7 +7484,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 196,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4722),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(595),
                             CampusId = 2,
                             Code = "SE140689",
                             CreatedBy = "",
@@ -7500,7 +7500,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 197,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4736),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(604),
                             CampusId = 2,
                             Code = "SE140690",
                             CreatedBy = "",
@@ -7516,7 +7516,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 198,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4751),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(612),
                             CampusId = 2,
                             Code = "SE140691",
                             CreatedBy = "",
@@ -7532,7 +7532,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 199,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4766),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(621),
                             CampusId = 2,
                             Code = "SE140692",
                             CreatedBy = "",
@@ -7548,7 +7548,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 200,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4780),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(629),
                             CampusId = 2,
                             Code = "SE140693",
                             CreatedBy = "",
@@ -7564,7 +7564,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 201,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4795),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(638),
                             CampusId = 2,
                             Code = "SE140694",
                             CreatedBy = "",
@@ -7580,7 +7580,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 202,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4856),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(647),
                             CampusId = 2,
                             Code = "SE140695",
                             CreatedBy = "",
@@ -7596,7 +7596,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 203,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4871),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(655),
                             CampusId = 2,
                             Code = "SE140696",
                             CreatedBy = "",
@@ -7612,7 +7612,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 204,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4887),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(664),
                             CampusId = 2,
                             Code = "SE140697",
                             CreatedBy = "",
@@ -7628,7 +7628,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 205,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4902),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(700),
                             CampusId = 2,
                             Code = "SE140698",
                             CreatedBy = "",
@@ -7644,7 +7644,7 @@ namespace Infrastructure.Migrations
                         {
                             Id = 206,
                             Avatar = "",
-                            Birthday = new DateTime(2022, 6, 12, 17, 9, 3, 823, DateTimeKind.Utc).AddTicks(4918),
+                            Birthday = new DateTime(2022, 6, 12, 17, 34, 47, 420, DateTimeKind.Utc).AddTicks(708),
                             CampusId = 2,
                             Code = "SE140699",
                             CreatedBy = "",

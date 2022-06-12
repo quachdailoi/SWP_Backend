@@ -228,6 +228,10 @@ namespace API.Services
         public async Task<Tuple<IEnumerable<CapstoneTeamViewModel>, int>> GetAllCapstoneTeams(PaginatedDataViewModel paginatedData)
         {
             var teams = capstoneTeamRepository.GetAll();
+            if (!teams.Any())
+            {
+                return Tuple.Create(Enumerable.Empty<CapstoneTeamViewModel>(), 0);
+            }
             paginatedData.GenerateSkipAndTotalPage(teams.Count());
 
             var totalPages = paginatedData.GetTotalPages();
